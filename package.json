@@ -1,22 +1,12 @@
 {
-  "name": "l-mvc-cms",
+  "name": "unhappy",
   "version": "1.0.0",
-  "description": "",
+  "description": "创建目录\r 创建pkg",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "zero-to-one-bin dev"
+  "bin":"",
+  "directories": {
+    "test": "tests"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lovelife10000/L-mvc-cms.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lovelife10000/L-mvc-cms/issues"
-  },
-  "homepage": "https://github.com/lovelife10000/L-mvc-cms#readme",
   "dependencies": {
     "agentkeepalive": "^3.3.0",
     "cfork": "^1.6.1",
@@ -26,7 +16,7 @@
     "co": "^4.6.0",
     "commander": "^2.11.0",
     "dargs": "^5.1.0",
-    "debug": "^3.0.0",
+    "debug": "^3.0.1",
     "detect-port": "^1.2.1",
     "extend2": "^1.0.0",
     "get-ready": "^2.0.1",
@@ -47,29 +37,21 @@
     "urllib": "^2.24.0",
     "utility": "^1.12.0",
     "yargs": "^8.0.2",
-    "ylru": "^1.2.0",
-    "zero-to-one": "^1.0.0",
-    "zero-to-one-bin": "^1.0.0",
-    "zero-to-one-ci": "^1.0.0",
-    "zero-to-one-cluster": "^1.0.0",
-    "zero-to-one-common-bin": "^1.0.0",
-    "zero-to-one-cookies": "^1.0.0",
-    "zero-to-one-core": "^1.0.0",
-    "zero-to-one-development": "^1.0.0",
-    "zero-to-one-i18n": "^1.0.0",
-    "zero-to-one-jsonp": "^1.0.0",
-    "zero-to-one-logger": "^1.0.0",
-    "zero-to-one-logrotator": "^1.0.0",
-    "zero-to-one-mock": "^1.0.0",
-    "zero-to-one-multipart": "^1.0.0",
-    "zero-to-one-onerror": "^1.0.0",
-    "zero-to-one-path-matching": "^1.0.0",
-    "zero-to-one-schedule": "^1.0.0",
-    "zero-to-one-security": "^1.0.0",
-    "zero-to-one-session": "^1.0.0",
-    "zero-to-one-static": "^1.0.0",
-    "zero-to-one-utils": "^1.0.0",
-    "zero-to-one-view": "^1.0.0",
-    "zero-to-one-watcher": "^1.0.0"
-  }
+    "ylru": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"node unhappy-bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovelife10000/unhappy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovelife10000/unhappy/issues"
+  },
+  "homepage": "https://github.com/lovelife10000/unhappy#readme"
 }
