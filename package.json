@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "创建目录\r 创建pkg",
   "main": "app.js",
-  "bin":"",
+  "bin": "",
   "directories": {
     "test": "tests"
   },
@@ -30,10 +30,14 @@
     "mkdirp": "^0.5.1",
     "mz-modules": "^2.0.0",
     "node-homedir": "^1.0.0",
+    "pm2": "^2.6.1",
     "rimraf": "^2.6.1",
     "scmp": "^2.0.0",
     "sendmessage": "^1.1.0",
     "test-exclude": "^4.1.1",
+    "unhappy-bin": "^1.0.2",
+    "unhappy-cluster": "^1.0.1",
+    "unhappy-core": "^1.0.0",
     "urllib": "^2.24.0",
     "utility": "^1.12.0",
     "yargs": "^8.0.2",
@@ -42,7 +46,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"node unhappy-bin"
+    "dev": "unhappy-bin dev"
   },
   "repository": {
     "type": "git",

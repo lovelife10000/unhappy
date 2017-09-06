@@ -1,28 +1,20 @@
-/**
- * Created by v_lljunli on 2017/8/17.
- */
-// 'use strict';
-// const path = require('path');
-// const Koa = require('koa');
-// const router = require('koa-router')();
-// const app =new Koa();
-// //const Route=require('./app/Http/routes');
-//
-//
-// app.use(require('./app/Http/routes'));
-//
-// app.listen(3000);
 
-var debug = require('debug')('http')
-  , http = require('http')
-  , name = 'My App';
+ 'use strict';
+const path = require('path');
+const Koa = require('koa');
+const KoaRouter = require('koa-router');
+const app =new Koa();
+ const router = new KoaRouter();
+ const unhappyCore = require('unhappy-core');
+ // router.get('/', function (ctx, next) {
+ //   ctx.body = 'Hello World!';
+ // });
+require('./app/router')(router);
+ app
+   .use(router.routes())
+   .use(router.allowedMethods());
 
-// fake app
-debug('booting %s', name);
 
-http.createServer(function(req, res){
-  debug(req.method + ' ' + req.url);
-  res.end('hello debug!\n');
-}).listen(3000, function(){
-  debug('listening');
-});
+
+app.listen(3000);
+
