@@ -1,13 +1,7 @@
 'use strict';
-
+const debug=require('debug')('router.js');
 module.exports = app => {
-  app.get('/', 'indexController.index');
-  app.get('/users', function (ctx, next) {
-    ctx.body = 'Hello users!';
-  });
-
+	debug('6了');
+  app.get('/', 'home.index');
+  app.get('/index2', 'home.index2');
 };
-
-
-
-

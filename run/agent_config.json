@@ -20,8 +20,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\web\\egg-analysis\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\web\\egg-analysis\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\web\\unhappy\\node_modules\\unhappy-watcher\\lib\\event-sources\\default",
+        "development": "D:\\web\\unhappy\\node_modules\\unhappy-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -98,7 +98,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\web\\egg-analysis\\app\\public",
+      "dir": "D:\\web\\unhappy\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -113,65 +113,127 @@
       "csrf": false
     },
     "view": {
-      "root": "D:\\web\\egg-analysis\\app\\view",
+      "root": "D:\\web\\unhappy\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
     "env": "local",
-    "name": "example",
+    "name": "unhappy",
     "keys": "<String len: 26>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "x-forwarded-host",
     "pkg": {
-      "name": "example",
+      "name": "unhappy",
       "version": "1.0.0",
-      "description": "",
-      "private": true,
+      "description": "创建目录\r 创建pkg",
+      "main": "app.js",
+      "bin": "",
+      "directories": {
+        "test": "tests"
+      },
       "dependencies": {
-        "egg": "^1.7.0",
-        "egg-scripts": "^1.0.0"
+        "agentkeepalive": "^3.3.0",
+        "cfork": "^1.6.1",
+        "chalk": "^2.1.0",
+        "change-case": "^3.0.1",
+        "cluster-client": "^1.7.0",
+        "co": "^4.6.0",
+        "co-busboy": "^1.3.1",
+        "commander": "^2.11.0",
+        "cookie": "^0.3.1",
+        "cron-parser": "^2.4.1",
+        "csrf": "^3.0.6",
+        "dargs": "^5.1.0",
+        "debounce": "^1.0.2",
+        "debug": "^3.0.1",
+        "detect-port": "^1.2.1",
+        "extend2": "^1.0.0",
+        "get-ready": "^2.0.1",
+        "globby": "^6.1.0",
+        "graceful": "^1.0.1",
+        "graceful-process": "^1.0.0",
+        "humanize-bytes": "^1.0.1",
+        "iconv-lite": "^0.4.18",
+        "inflection": "^1.12.0",
+        "is-type-of": "^1.2.0",
+        "jsonp-body": "^1.0.0",
+        "koa": "^2.3.0",
+        "koa-bodyparser": "^4.2.0",
+        "koa-locales": "^1.7.0",
+        "koa-onerror": "^3.1.0",
+        "koa-override": "^2.0.0",
+        "koa-router": "^7.2.1",
+        "koa-session": "^5.5.0",
+        "koa-static-cache": "^5.1.1",
+        "mkdirp": "^0.5.1",
+        "mustache": "^2.3.0",
+        "mz": "^2.7.0",
+        "mz-modules": "^2.0.0",
+        "node-homedir": "^1.0.0",
+        "pm2": "^2.6.1",
+        "ready-callback": "^2.0.1",
+        "rimraf": "^2.6.1",
+        "rndm": "^1.2.0",
+        "safe-timers": "^1.0.1",
+        "scmp": "^2.0.0",
+        "sendmessage": "^1.1.0",
+        "stack-trace": "0.0.10",
+        "test-exclude": "^4.1.1",
+        "unhappy-app": "^1.0.0",
+        "unhappy-bin": "^1.0.2",
+        "unhappy-cluster": "^1.0.1",
+        "unhappy-common-bin": "^1.0.0",
+        "unhappy-cookies": "^1.0.0",
+        "unhappy-core": "^1.0.0",
+        "unhappy-development": "^1.0.0",
+        "unhappy-fork": "^1.0.0",
+        "unhappy-get-ready": "^1.0.0",
+        "unhappy-i18n": "^1.0.0",
+        "unhappy-ipc": "^1.0.0",
+        "unhappy-jsonp": "^1.0.0",
+        "unhappy-logger": "^1.0.0",
+        "unhappy-logrotator": "^1.0.0",
+        "unhappy-multipart": "^1.0.0",
+        "unhappy-onerror": "^1.0.0",
+        "unhappy-path-matching": "^1.0.0",
+        "unhappy-ready-callback": "^1.0.0",
+        "unhappy-schedule": "^1.0.0",
+        "unhappy-security": "^1.0.0",
+        "unhappy-session": "^1.0.0",
+        "unhappy-static": "^1.0.0",
+        "unhappy-utils": "^1.0.0",
+        "unhappy-view": "^1.0.0",
+        "unhappy-watcher": "^1.0.0",
+        "urllib": "^2.24.0",
+        "utility": "^1.12.0",
+        "wt": "^1.1.1",
+        "xss": "^0.3.4",
+        "yargs": "^8.0.2",
+        "ylru": "^1.2.0"
       },
-      "devDependencies": {
-        "autod": "^2.9.0",
-        "autod-egg": "^1.0.0",
-        "egg-bin": "^4.1.0",
-        "egg-ci": "^1.8.0",
-        "egg-mock": "^3.9.0",
-        "eslint": "^4.3.0",
-        "eslint-config-egg": "^5.0.0",
-        "webstorm-disable-index": "^1.2.0"
-      },
-      "engines": {
-        "node": ">=6.0.0"
-      },
+      "devDependencies": {},
       "scripts": {
-        "start": "egg-scripts start --daemon",
-        "stop": "egg-scripts stop",
-        "dev": "egg-bin dev",
-        "test": "npm run lint -- --fix && npm run test-local",
-        "test-local": "egg-bin test",
-        "cov": "egg-bin cov",
-        "lint": "eslint .",
-        "ci": "npm run lint && npm run cov",
-        "autod": "autod"
-      },
-      "ci": {
-        "version": "6, 8"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "unhappy-bin dev"
       },
       "repository": {
         "type": "git",
-        "url": ""
+        "url": "git+https://github.com/lovelife10000/unhappy.git"
       },
       "author": "",
-      "license": "MIT"
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/lovelife10000/unhappy/issues"
+      },
+      "homepage": "https://github.com/lovelife10000/unhappy#readme"
     },
-    "baseDir": "D:\\web\\egg-analysis",
+    "baseDir": "D:\\web\\unhappy",
     "HOME": "C:\\Users\\v_lljunli",
-    "rundir": "D:\\web\\egg-analysis\\run",
+    "rundir": "D:\\web\\unhappy\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -201,7 +263,7 @@
       }
     },
     "logger": {
-      "dir": "D:\\web\\egg-analysis\\logs\\example",
+      "dir": "D:\\web\\unhappy\\logs\\unhappy",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -209,7 +271,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "example-web.log",
+      "appLogName": "unhappy-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
@@ -249,7 +311,7 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 7001,
+        "port": 3000,
         "hostname": ""
       }
     },
@@ -266,145 +328,135 @@
   "plugins": {
     "onerror": {
       "enable": true,
-      "package": "egg-onerror",
+      "package": "unhappy-onerror",
       "name": "onerror",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-onerror",
-      "version": "1.5.0"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-onerror",
+      "version": "1.0.0"
     },
     "session": {
       "enable": true,
-      "package": "egg-session",
+      "package": "unhappy-session",
       "name": "session",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-session",
-      "version": "2.1.1"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-session",
+      "version": "1.0.0"
     },
     "i18n": {
       "enable": true,
-      "package": "egg-i18n",
+      "package": "unhappy-i18n",
       "name": "i18n",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-i18n",
-      "version": "1.1.1"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-i18n",
+      "version": "1.0.0"
     },
     "watcher": {
       "enable": true,
-      "package": "egg-watcher",
+      "package": "unhappy-watcher",
       "name": "watcher",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-watcher",
-      "version": "2.1.3"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-watcher",
+      "version": "1.0.0"
     },
     "multipart": {
       "enable": true,
-      "package": "egg-multipart",
+      "package": "unhappy-multipart",
       "name": "multipart",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-multipart",
-      "version": "1.5.0"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-multipart",
+      "version": "1.0.0"
     },
     "security": {
       "enable": true,
-      "package": "egg-security",
+      "package": "unhappy-security",
       "name": "security",
       "dependencies": [],
-      "optionalDependencies": [
-        "session"
-      ],
+      "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-security",
-      "version": "1.12.1"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-security",
+      "version": "1.0.0"
     },
     "development": {
       "enable": true,
-      "package": "egg-development",
+      "package": "unhappy-development",
       "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
+      "dependencies": [],
       "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-development",
-      "version": "1.3.1"
+      "env": [],
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-development",
+      "version": "1.0.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "unhappy-logrotator",
+      "name": "logrotator",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-logrotator",
+      "version": "1.0.0"
     },
     "schedule": {
       "enable": true,
-      "package": "egg-schedule",
+      "package": "unhappy-schedule",
       "name": "schedule",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-schedule",
-      "version": "2.4.1"
-    },
-    "logrotator": {
-      "enable": true,
-      "package": "egg-logrotator",
-      "name": "logrotator",
-      "dependencies": [
-        "schedule"
-      ],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-logrotator",
-      "version": "2.2.3"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-schedule",
+      "version": "1.0.0"
     },
     "static": {
       "enable": true,
-      "package": "egg-static",
+      "package": "unhappy-static",
       "name": "static",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-static",
-      "version": "1.4.1"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-static",
+      "version": "1.0.0"
     },
     "jsonp": {
       "enable": true,
-      "package": "egg-jsonp",
+      "package": "unhappy-jsonp",
       "name": "jsonp",
       "dependencies": [],
-      "optionalDependencies": [
-        "security"
-      ],
+      "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-jsonp",
-      "version": "1.1.2"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-jsonp",
+      "version": "1.0.0"
     },
     "view": {
       "enable": true,
-      "package": "egg-view",
+      "package": "unhappy-view",
       "name": "view",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg-view",
-      "version": "1.1.2"
+      "from": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\plugin.js",
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-view",
+      "version": "1.0.0"
     }
   }
 }

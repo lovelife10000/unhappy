@@ -1,245 +1,307 @@
 {
-  "keys": "D:\\web\\egg-analysis\\config\\config.default.js",
+  "keys": "D:\\web\\unhappy\\config\\config.default.js",
   "onerror": {
-    "errorPageUrl": "D:\\web\\egg-analysis\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\web\\egg-analysis\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "D:\\web\\unhappy\\node_modules\\unhappy-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\web\\unhappy\\node_modules\\unhappy-onerror\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "D:\\web\\egg-analysis\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\web\\egg-analysis\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\web\\egg-analysis\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\web\\egg-analysis\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "D:\\web\\unhappy\\node_modules\\unhappy-session\\config\\config.default.js",
+    "key": "D:\\web\\unhappy\\node_modules\\unhappy-session\\config\\config.default.js",
+    "httpOnly": "D:\\web\\unhappy\\node_modules\\unhappy-session\\config\\config.default.js",
+    "encrypt": "D:\\web\\unhappy\\node_modules\\unhappy-session\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\web\\egg-analysis\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\web\\egg-analysis\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\web\\egg-analysis\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\web\\egg-analysis\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\web\\egg-analysis\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "D:\\web\\unhappy\\node_modules\\unhappy-i18n\\config\\config.default.js",
+    "dirs": "D:\\web\\unhappy\\node_modules\\unhappy-i18n\\config\\config.default.js",
+    "queryField": "D:\\web\\unhappy\\node_modules\\unhappy-i18n\\config\\config.default.js",
+    "cookieField": "D:\\web\\unhappy\\node_modules\\unhappy-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\web\\unhappy\\node_modules\\unhappy-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\web\\egg-analysis\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "D:\\web\\unhappy\\node_modules\\unhappy-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "D:\\web\\egg-analysis\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "D:\\web\\egg-analysis\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "D:\\web\\unhappy\\node_modules\\unhappy-watcher\\config\\config.default.js",
+      "development": "D:\\web\\unhappy\\node_modules\\unhappy-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "D:\\web\\egg-analysis\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\web\\egg-analysis\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\web\\egg-analysis\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\web\\egg-analysis\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "D:\\web\\egg-analysis\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\web\\egg-analysis\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "D:\\web\\egg-analysis\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\web\\egg-analysis\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\web\\egg-analysis\\node_modules\\egg-multipart\\config\\config.default.js"
+    "autoFields": "D:\\web\\unhappy\\node_modules\\unhappy-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\web\\unhappy\\node_modules\\unhappy-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\web\\unhappy\\node_modules\\unhappy-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\web\\unhappy\\node_modules\\unhappy-multipart\\config\\config.default.js",
+    "fields": "D:\\web\\unhappy\\node_modules\\unhappy-multipart\\config\\config.default.js",
+    "fileSize": "D:\\web\\unhappy\\node_modules\\unhappy-multipart\\config\\config.default.js",
+    "files": "D:\\web\\unhappy\\node_modules\\unhappy-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\web\\unhappy\\node_modules\\unhappy-multipart\\config\\config.default.js",
+    "whitelist": "D:\\web\\unhappy\\node_modules\\unhappy-multipart\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
     "csrf": {
-      "enable": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "useSession": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "cookieName": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "sessionName": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "headerName": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "bodyName": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "queryName": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "value": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.local.js",
+      "maxAge": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "value": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js",
+      "policy": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "D:\\web\\egg-analysis\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "D:\\web\\unhappy\\node_modules\\unhappy-security\\config\\config.default.js"
   },
   "development": {
-    "watchDirs": "D:\\web\\egg-analysis\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\web\\egg-analysis\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\web\\egg-analysis\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\web\\egg-analysis\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "D:\\web\\unhappy\\node_modules\\unhappy-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\web\\unhappy\\node_modules\\unhappy-development\\config\\config.default.js",
+    "fastReady": "D:\\web\\unhappy\\node_modules\\unhappy-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\web\\unhappy\\node_modules\\unhappy-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\web\\egg-analysis\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\web\\egg-analysis\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\web\\egg-analysis\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\web\\egg-analysis\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\web\\egg-analysis\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\web\\egg-analysis\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "D:\\web\\unhappy\\node_modules\\unhappy-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\web\\unhappy\\node_modules\\unhappy-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\web\\unhappy\\node_modules\\unhappy-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\web\\unhappy\\node_modules\\unhappy-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\web\\unhappy\\node_modules\\unhappy-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\web\\unhappy\\node_modules\\unhappy-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "D:\\web\\egg-analysis\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "D:\\web\\egg-analysis\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "D:\\web\\egg-analysis\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\web\\egg-analysis\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\web\\egg-analysis\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\web\\egg-analysis\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "D:\\web\\unhappy\\node_modules\\unhappy-static\\config\\config.default.js",
+    "dir": "D:\\web\\unhappy\\node_modules\\unhappy-static\\config\\config.default.js",
+    "dynamic": "D:\\web\\unhappy\\node_modules\\unhappy-static\\config\\config.default.js",
+    "preload": "D:\\web\\unhappy\\node_modules\\unhappy-static\\config\\config.default.js",
+    "buffer": "D:\\web\\unhappy\\node_modules\\unhappy-static\\config\\config.default.js",
+    "maxFiles": "D:\\web\\unhappy\\node_modules\\unhappy-static\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\web\\egg-analysis\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\web\\egg-analysis\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\web\\egg-analysis\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "D:\\web\\unhappy\\node_modules\\unhappy-jsonp\\config\\config.default.js",
+    "callback": "D:\\web\\unhappy\\node_modules\\unhappy-jsonp\\config\\config.default.js",
+    "csrf": "D:\\web\\unhappy\\node_modules\\unhappy-jsonp\\config\\config.default.js"
   },
   "view": {
-    "root": "D:\\web\\egg-analysis\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\web\\egg-analysis\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\web\\egg-analysis\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "D:\\web\\egg-analysis\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "D:\\web\\egg-analysis\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "D:\\web\\unhappy\\node_modules\\unhappy-view\\config\\config.default.js",
+    "cache": "D:\\web\\unhappy\\node_modules\\unhappy-view\\config\\config.local.js",
+    "defaultExtension": "D:\\web\\unhappy\\node_modules\\unhappy-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\web\\unhappy\\node_modules\\unhappy-view\\config\\config.default.js",
+    "mapping": "D:\\web\\unhappy\\node_modules\\unhappy-view\\config\\config.default.js"
   },
-  "env": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-  "name": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
+  "env": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+  "name": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+  "proxy": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+  "protocolHeaders": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+  "ipHeaders": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+  "hostHeaders": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
   "pkg": {
-    "name": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "version": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "private": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
+    "name": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "version": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "description": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "main": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "bin": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "directories": {
+      "test": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
+    },
     "dependencies": {
-      "egg": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+      "agentkeepalive": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "cfork": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "chalk": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "change-case": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "cluster-client": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "co": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "co-busboy": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "commander": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "cookie": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "cron-parser": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "csrf": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "dargs": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "debounce": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "debug": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "detect-port": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "extend2": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "get-ready": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "globby": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "graceful": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "graceful-process": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "humanize-bytes": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "iconv-lite": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "inflection": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "is-type-of": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "jsonp-body": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "koa": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "koa-bodyparser": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "koa-locales": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "koa-onerror": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "koa-override": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "koa-router": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "koa-session": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "koa-static-cache": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "mkdirp": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "mustache": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "mz": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "mz-modules": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "node-homedir": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "pm2": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "ready-callback": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "rimraf": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "rndm": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "safe-timers": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "scmp": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "sendmessage": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "stack-trace": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "test-exclude": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-app": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-bin": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-cluster": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-common-bin": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-cookies": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-core": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-development": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-fork": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-get-ready": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-i18n": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-ipc": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-jsonp": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-logger": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-logrotator": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-multipart": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-onerror": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-path-matching": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-ready-callback": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-schedule": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-security": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-session": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-static": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-utils": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-view": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "unhappy-watcher": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "urllib": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "utility": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "wt": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "xss": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "yargs": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "ylru": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
     },
-    "devDependencies": {
-      "autod": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "autod-egg": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "egg-ci": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "eslint-config-egg": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "webstorm-disable-index": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
-    },
-    "engines": {
-      "node": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
-    },
+    "devDependencies": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
     "scripts": {
-      "start": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "stop": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "dev": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "test": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "test-local": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "cov": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "lint": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "ci": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "autod": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
-    },
-    "ci": {
-      "version": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+      "test": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "dev": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
     },
     "repository": {
-      "type": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "url": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+      "type": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "url": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
     },
-    "author": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "license": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+    "author": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "license": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "bugs": {
+      "url": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
+    },
+    "homepage": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
   },
-  "baseDir": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+  "HOME": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+  "rundir": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
   "dump": {
-    "ignore": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "notFound": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "sitefile": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "middlewares": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "httpClient": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "strict": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
+    "enable": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "encoding": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "formLimit": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "jsonLimit": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "strict": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "depth": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "depth": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "parameterLimit": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "env": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "level": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
+    "dir": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "encoding": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "env": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "level": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "consoleLevel": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "outputJSON": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "buffer": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "appLogName": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "coreLogName": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "agentLogName": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "errorLogName": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.local.js"
     }
   },
   "httpclient": {
-    "enableDNSCache": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
     "request": {
-      "timeout": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "maxSockets": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "maxFreeSockets": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "maxSockets": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "maxFreeSockets": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
     }
   },
-  "coreMiddleware": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+  "workerStartTimeout": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "port": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "D:\\web\\egg-analysis\\node_modules\\egg\\config\\config.default.js"
+      "path": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "port": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "hostname": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
     }
   }
 }
