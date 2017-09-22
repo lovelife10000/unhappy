@@ -1,0 +1,65 @@
+2017-09-21 00:00:00,490 INFO 16036 [egg-logrotator] agent logger reload: got log-reload message
+2017-09-21 16:55:27,320 INFO 17244 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 16:55:27,698 INFO 17244 [egg-watcher:agent] watcher start success
+2017-09-21 17:00:49,879 WARN 17244 [agent:development] reload worker because D:\web\unhappy\app\router.js___jb_old___ rename
+2017-09-21 17:01:14,759 WARN 17244 [agent:development] reload worker because D:\web\unhappy\app\router.js___jb_old___ rename
+2017-09-21 17:01:29,838 INFO 15892 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 17:01:30,215 INFO 15892 [egg-watcher:agent] watcher start success
+2017-09-21 17:03:39,379 WARN 15892 [agent:development] reload worker because D:\web\unhappy\app\router.js___jb_old___ rename
+2017-09-21 17:03:43,804 WARN 15892 [agent:development] reload worker because D:\web\unhappy\app\router.js___jb_old___ rename
+2017-09-21 17:09:29,788 INFO 18224 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 17:09:30,166 INFO 18224 [egg-watcher:agent] watcher start success
+2017-09-21 17:24:14,098 INFO 14268 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 17:24:14,481 INFO 14268 [egg-watcher:agent] watcher start success
+2017-09-21 17:31:52,105 INFO 14416 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 17:31:52,482 INFO 14416 [egg-watcher:agent] watcher start success
+2017-09-21 17:41:20,314 INFO 17684 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 17:41:20,700 INFO 17684 [egg-watcher:agent] watcher start success
+2017-09-21 17:43:20,699 INFO 16636 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 17:43:21,066 INFO 16636 [egg-watcher:agent] watcher start success
+2017-09-21 18:22:45,214 INFO 14368 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 18:22:45,579 INFO 14368 [egg-watcher:agent] watcher start success
+2017-09-21 18:23:32,532 INFO 18276 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 18:23:32,911 INFO 18276 [egg-watcher:agent] watcher start success
+2017-09-21 18:34:48,126 WARN 18276 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-09-21 18:35:01,030 INFO 17900 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-21 18:35:01,401 INFO 17900 [egg-watcher:agent] watcher start success
+2017-09-21 18:36:21,813 WARN 17900 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-09-22 00:00:00,229 INFO 17900 [egg-schedule] send message: sendRandom egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-22 00:00:00,230 WARN 17900 agent can't call sendRandom before server started
+    at Messenger.messenger.(anonymous function) [as sendRandom] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:65:23)
+    at sendMessage (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:57:26)
+    at one (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:36:11)
+    at Timeout.safeTimeout [as _onTimeout] (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:102:5)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+2017-09-22 00:00:00,244 WARN 17900 agent can't call sendTo before server started
+    at Messenger.messenger.(anonymous function) [as sendTo] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:65:23)
+    at Messenger.sendRandom (D:\web\unhappy\node_modules\unhappy-app\lib\core\messenger.js:46:10)
+    at Messenger.messenger.(anonymous function) [as sendRandom] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:68:22)
+    at sendMessage (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:57:26)
+    at one (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:36:11)
+    at Timeout.safeTimeout [as _onTimeout] (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:102:5)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+2017-09-22 00:00:00,260 INFO 17900 [egg-schedule] send message: sendRandom egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-22 00:00:00,260 WARN 17900 agent can't call sendRandom before server started
+    at Messenger.messenger.(anonymous function) [as sendRandom] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:65:23)
+    at sendMessage (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:57:26)
+    at one (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:36:11)
+    at Timeout.safeTimeout [as _onTimeout] (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:102:5)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+2017-09-22 00:00:00,266 WARN 17900 agent can't call sendTo before server started
+    at Messenger.messenger.(anonymous function) [as sendTo] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:65:23)
+    at Messenger.sendRandom (D:\web\unhappy\node_modules\unhappy-app\lib\core\messenger.js:46:10)
+    at Messenger.messenger.(anonymous function) [as sendRandom] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:68:22)
+    at sendMessage (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:57:26)
+    at one (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:36:11)
+    at Timeout.safeTimeout [as _onTimeout] (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:102:5)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
