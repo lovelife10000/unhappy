@@ -1,453 +1,424 @@
-2017-09-22 00:00:00,339 INFO 10856 [egg-logrotator] app logger reload: got log-reload message
-2017-09-22 09:17:43,515 INFO 17360 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 09:17:43,819 INFO 17360 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 09:17:43,819 INFO 17360 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 09:17:44,062 INFO 17360 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 09:17:44,294 INFO 17360 [egg-security] use csrf middleware
-2017-09-22 09:17:44,295 INFO 17360 [egg-security] use methodnoallow middleware
-2017-09-22 09:17:44,295 INFO 17360 [egg-security] use noopen middleware
-2017-09-22 09:17:44,296 INFO 17360 [egg-security] use nosniff middleware
-2017-09-22 09:17:44,296 INFO 17360 [egg-security] use xssProtection middleware
-2017-09-22 09:17:44,297 INFO 17360 [egg-security] use xframe middleware
-2017-09-22 09:17:44,297 INFO 17360 [egg-security] use dta middleware
-2017-09-22 09:17:44,297 INFO 17360 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 09:17:44,498 INFO 17360 [egg-watcher:app] watcher start success
-2017-09-22 09:18:51,582 WARN 17360 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 09:25:49,869 INFO 12736 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 09:25:50,159 INFO 12736 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 09:25:50,159 INFO 12736 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 09:25:50,406 INFO 12736 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 09:25:50,627 INFO 12736 [egg-security] use csrf middleware
-2017-09-22 09:25:50,628 INFO 12736 [egg-security] use methodnoallow middleware
-2017-09-22 09:25:50,628 INFO 12736 [egg-security] use noopen middleware
-2017-09-22 09:25:50,629 INFO 12736 [egg-security] use nosniff middleware
-2017-09-22 09:25:50,629 INFO 12736 [egg-security] use xssProtection middleware
-2017-09-22 09:25:50,630 INFO 12736 [egg-security] use xframe middleware
-2017-09-22 09:25:50,630 INFO 12736 [egg-security] use dta middleware
-2017-09-22 09:25:50,630 INFO 12736 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 09:25:50,807 INFO 12736 [egg-watcher:app] watcher start success
-2017-09-22 09:26:48,188 INFO 18796 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 09:26:48,396 INFO 18796 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 09:26:48,396 INFO 18796 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 09:26:48,674 INFO 18796 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 09:26:48,917 INFO 18796 [egg-security] use csrf middleware
-2017-09-22 09:26:48,918 INFO 18796 [egg-security] use methodnoallow middleware
-2017-09-22 09:26:48,919 INFO 18796 [egg-security] use noopen middleware
-2017-09-22 09:26:48,919 INFO 18796 [egg-security] use nosniff middleware
-2017-09-22 09:26:48,920 INFO 18796 [egg-security] use xssProtection middleware
-2017-09-22 09:26:48,921 INFO 18796 [egg-security] use xframe middleware
-2017-09-22 09:26:48,922 INFO 18796 [egg-security] use dta middleware
-2017-09-22 09:26:48,922 INFO 18796 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 09:26:49,089 INFO 18796 [egg-watcher:app] watcher start success
-2017-09-22 09:35:06,380 WARN 18796 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 09:35:18,428 INFO 18724 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 09:35:18,741 INFO 18724 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 09:35:18,741 INFO 18724 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 09:35:19,019 INFO 18724 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 09:35:19,254 INFO 18724 [egg-security] use csrf middleware
-2017-09-22 09:35:19,255 INFO 18724 [egg-security] use methodnoallow middleware
-2017-09-22 09:35:19,256 INFO 18724 [egg-security] use noopen middleware
-2017-09-22 09:35:19,257 INFO 18724 [egg-security] use nosniff middleware
-2017-09-22 09:35:19,257 INFO 18724 [egg-security] use xssProtection middleware
-2017-09-22 09:35:19,258 INFO 18724 [egg-security] use xframe middleware
-2017-09-22 09:35:19,258 INFO 18724 [egg-security] use dta middleware
-2017-09-22 09:35:19,258 INFO 18724 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 09:35:19,438 INFO 18724 [egg-watcher:app] watcher start success
-2017-09-22 09:38:58,307 WARN 18724 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 09:39:09,081 INFO 18400 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 09:39:09,387 INFO 18400 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 09:39:09,387 INFO 18400 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 09:39:09,661 INFO 18400 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 09:39:09,886 INFO 18400 [egg-security] use csrf middleware
-2017-09-22 09:39:09,887 INFO 18400 [egg-security] use methodnoallow middleware
-2017-09-22 09:39:09,887 INFO 18400 [egg-security] use noopen middleware
-2017-09-22 09:39:09,888 INFO 18400 [egg-security] use nosniff middleware
-2017-09-22 09:39:09,888 INFO 18400 [egg-security] use xssProtection middleware
-2017-09-22 09:39:09,889 INFO 18400 [egg-security] use xframe middleware
-2017-09-22 09:39:09,889 INFO 18400 [egg-security] use dta middleware
-2017-09-22 09:39:09,889 INFO 18400 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 09:39:10,053 INFO 18400 [egg-watcher:app] watcher start success
-2017-09-22 09:40:59,160 INFO 15144 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 09:40:59,460 INFO 15144 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 09:40:59,460 INFO 15144 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 09:40:59,740 INFO 15144 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 09:40:59,969 INFO 15144 [egg-security] use csrf middleware
-2017-09-22 09:40:59,970 INFO 15144 [egg-security] use methodnoallow middleware
-2017-09-22 09:40:59,970 INFO 15144 [egg-security] use noopen middleware
-2017-09-22 09:40:59,971 INFO 15144 [egg-security] use nosniff middleware
-2017-09-22 09:40:59,971 INFO 15144 [egg-security] use xssProtection middleware
-2017-09-22 09:40:59,972 INFO 15144 [egg-security] use xframe middleware
-2017-09-22 09:40:59,972 INFO 15144 [egg-security] use dta middleware
-2017-09-22 09:40:59,972 INFO 15144 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 09:41:00,148 INFO 15144 [egg-watcher:app] watcher start success
-2017-09-22 09:42:41,520 WARN 15144 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 09:44:06,612 INFO 11392 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 09:44:06,911 INFO 11392 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 09:44:06,911 INFO 11392 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 09:44:07,189 INFO 11392 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 09:44:07,416 INFO 11392 [egg-security] use csrf middleware
-2017-09-22 09:44:07,418 INFO 11392 [egg-security] use methodnoallow middleware
-2017-09-22 09:44:07,419 INFO 11392 [egg-security] use noopen middleware
-2017-09-22 09:44:07,420 INFO 11392 [egg-security] use nosniff middleware
-2017-09-22 09:44:07,420 INFO 11392 [egg-security] use xssProtection middleware
-2017-09-22 09:44:07,421 INFO 11392 [egg-security] use xframe middleware
-2017-09-22 09:44:07,422 INFO 11392 [egg-security] use dta middleware
-2017-09-22 09:44:07,422 INFO 11392 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 09:44:07,631 INFO 11392 [egg-watcher:app] watcher start success
-2017-09-22 09:45:32,358 WARN 11392 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 09:45:42,272 INFO 15744 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 09:45:42,567 INFO 15744 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 09:45:42,567 INFO 15744 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 09:45:42,887 INFO 15744 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 09:45:43,117 INFO 15744 [egg-security] use csrf middleware
-2017-09-22 09:45:43,118 INFO 15744 [egg-security] use methodnoallow middleware
-2017-09-22 09:45:43,118 INFO 15744 [egg-security] use noopen middleware
-2017-09-22 09:45:43,119 INFO 15744 [egg-security] use nosniff middleware
-2017-09-22 09:45:43,119 INFO 15744 [egg-security] use xssProtection middleware
-2017-09-22 09:45:43,120 INFO 15744 [egg-security] use xframe middleware
-2017-09-22 09:45:43,120 INFO 15744 [egg-security] use dta middleware
-2017-09-22 09:45:43,121 INFO 15744 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 09:45:43,295 INFO 15744 [egg-watcher:app] watcher start success
-2017-09-22 10:02:54,552 WARN 15744 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 10:03:12,088 INFO 15516 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 10:03:12,397 INFO 15516 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 10:03:12,398 INFO 15516 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 10:03:12,700 INFO 15516 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 10:03:12,963 INFO 15516 [egg-security] use csrf middleware
-2017-09-22 10:03:12,964 INFO 15516 [egg-security] use methodnoallow middleware
-2017-09-22 10:03:12,964 INFO 15516 [egg-security] use noopen middleware
-2017-09-22 10:03:12,965 INFO 15516 [egg-security] use nosniff middleware
-2017-09-22 10:03:12,965 INFO 15516 [egg-security] use xssProtection middleware
-2017-09-22 10:03:12,966 INFO 15516 [egg-security] use xframe middleware
-2017-09-22 10:03:12,966 INFO 15516 [egg-security] use dta middleware
-2017-09-22 10:03:12,966 INFO 15516 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 10:03:13,173 INFO 15516 [egg-watcher:app] watcher start success
-2017-09-22 10:08:00,050 WARN 15516 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 10:08:09,732 INFO 16664 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 10:08:10,013 INFO 16664 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 10:08:10,013 INFO 16664 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 10:08:10,322 INFO 16664 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 10:08:10,566 INFO 16664 [egg-security] use csrf middleware
-2017-09-22 10:08:10,566 INFO 16664 [egg-security] use methodnoallow middleware
-2017-09-22 10:08:10,567 INFO 16664 [egg-security] use noopen middleware
-2017-09-22 10:08:10,567 INFO 16664 [egg-security] use nosniff middleware
-2017-09-22 10:08:10,568 INFO 16664 [egg-security] use xssProtection middleware
-2017-09-22 10:08:10,568 INFO 16664 [egg-security] use xframe middleware
-2017-09-22 10:08:10,569 INFO 16664 [egg-security] use dta middleware
-2017-09-22 10:08:10,569 INFO 16664 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 10:08:10,752 INFO 16664 [egg-watcher:app] watcher start success
-2017-09-22 10:19:51,536 INFO 16844 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 10:19:51,848 INFO 16844 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 10:19:51,848 INFO 16844 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 10:19:52,302 INFO 16844 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 10:19:52,524 INFO 16844 [egg-security] use csrf middleware
-2017-09-22 10:19:52,525 INFO 16844 [egg-security] use methodnoallow middleware
-2017-09-22 10:19:52,525 INFO 16844 [egg-security] use noopen middleware
-2017-09-22 10:19:52,526 INFO 16844 [egg-security] use nosniff middleware
-2017-09-22 10:19:52,526 INFO 16844 [egg-security] use xssProtection middleware
-2017-09-22 10:19:52,527 INFO 16844 [egg-security] use xframe middleware
-2017-09-22 10:19:52,527 INFO 16844 [egg-security] use dta middleware
-2017-09-22 10:19:52,527 INFO 16844 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 10:19:52,709 INFO 16844 [egg-watcher:app] watcher start success
-2017-09-22 10:20:40,970 WARN 16844 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 10:23:03,888 INFO 15956 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 10:23:04,189 INFO 15956 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 10:23:04,189 INFO 15956 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 10:23:04,669 INFO 15956 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 10:23:04,888 INFO 15956 [egg-security] use csrf middleware
-2017-09-22 10:23:04,889 INFO 15956 [egg-security] use methodnoallow middleware
-2017-09-22 10:23:04,889 INFO 15956 [egg-security] use noopen middleware
-2017-09-22 10:23:04,890 INFO 15956 [egg-security] use nosniff middleware
-2017-09-22 10:23:04,890 INFO 15956 [egg-security] use xssProtection middleware
-2017-09-22 10:23:04,891 INFO 15956 [egg-security] use xframe middleware
-2017-09-22 10:23:04,891 INFO 15956 [egg-security] use dta middleware
-2017-09-22 10:23:04,891 INFO 15956 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 10:23:05,072 INFO 15956 [egg-watcher:app] watcher start success
-2017-09-22 10:27:29,054 WARN 15956 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 10:51:52,664 INFO 17952 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 10:51:52,960 INFO 17952 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 10:51:52,960 INFO 17952 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 10:51:53,438 INFO 17952 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 10:51:53,672 INFO 17952 [egg-security] use csrf middleware
-2017-09-22 10:51:53,673 INFO 17952 [egg-security] use methodnoallow middleware
-2017-09-22 10:51:53,674 INFO 17952 [egg-security] use noopen middleware
-2017-09-22 10:51:53,674 INFO 17952 [egg-security] use nosniff middleware
-2017-09-22 10:51:53,674 INFO 17952 [egg-security] use xssProtection middleware
-2017-09-22 10:51:53,675 INFO 17952 [egg-security] use xframe middleware
-2017-09-22 10:51:53,675 INFO 17952 [egg-security] use dta middleware
-2017-09-22 10:51:53,675 INFO 17952 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 10:51:53,867 INFO 17952 [egg-watcher:app] watcher start success
-2017-09-22 10:52:27,714 INFO 12656 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 10:52:28,009 INFO 12656 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 10:52:28,009 INFO 12656 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 10:52:28,465 INFO 12656 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 10:52:28,698 INFO 12656 [egg-security] use csrf middleware
-2017-09-22 10:52:28,700 INFO 12656 [egg-security] use methodnoallow middleware
-2017-09-22 10:52:28,700 INFO 12656 [egg-security] use noopen middleware
-2017-09-22 10:52:28,701 INFO 12656 [egg-security] use nosniff middleware
-2017-09-22 10:52:28,701 INFO 12656 [egg-security] use xssProtection middleware
-2017-09-22 10:52:28,702 INFO 12656 [egg-security] use xframe middleware
-2017-09-22 10:52:28,703 INFO 12656 [egg-security] use dta middleware
-2017-09-22 10:52:28,703 INFO 12656 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 10:52:28,894 INFO 12656 [egg-watcher:app] watcher start success
-2017-09-22 10:59:11,321 INFO 20896 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 10:59:11,695 INFO 20896 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 10:59:11,695 INFO 20896 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 10:59:12,155 INFO 20896 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 10:59:12,396 INFO 20896 [egg-security] use csrf middleware
-2017-09-22 10:59:12,397 INFO 20896 [egg-security] use methodnoallow middleware
-2017-09-22 10:59:12,397 INFO 20896 [egg-security] use noopen middleware
-2017-09-22 10:59:12,398 INFO 20896 [egg-security] use nosniff middleware
-2017-09-22 10:59:12,398 INFO 20896 [egg-security] use xssProtection middleware
-2017-09-22 10:59:12,399 INFO 20896 [egg-security] use xframe middleware
-2017-09-22 10:59:12,399 INFO 20896 [egg-security] use dta middleware
-2017-09-22 10:59:12,399 INFO 20896 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 10:59:12,605 INFO 20896 [egg-watcher:app] watcher start success
-2017-09-22 11:00:46,898 WARN 20896 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 11:01:01,172 INFO 3676 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 11:01:01,482 INFO 3676 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 11:01:01,482 INFO 3676 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 11:01:01,970 INFO 3676 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 11:01:02,228 INFO 3676 [egg-security] use csrf middleware
-2017-09-22 11:01:02,229 INFO 3676 [egg-security] use methodnoallow middleware
-2017-09-22 11:01:02,229 INFO 3676 [egg-security] use noopen middleware
-2017-09-22 11:01:02,230 INFO 3676 [egg-security] use nosniff middleware
-2017-09-22 11:01:02,230 INFO 3676 [egg-security] use xssProtection middleware
-2017-09-22 11:01:02,231 INFO 3676 [egg-security] use xframe middleware
-2017-09-22 11:01:02,231 INFO 3676 [egg-security] use dta middleware
-2017-09-22 11:01:02,231 INFO 3676 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 11:01:02,451 INFO 3676 [egg-watcher:app] watcher start success
-2017-09-22 11:05:25,021 WARN 3676 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 11:05:38,523 INFO 16224 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 11:05:38,807 INFO 16224 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 11:05:38,807 INFO 16224 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 11:05:39,317 INFO 16224 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 11:05:39,583 INFO 16224 [egg-security] use csrf middleware
-2017-09-22 11:05:39,583 INFO 16224 [egg-security] use methodnoallow middleware
-2017-09-22 11:05:39,584 INFO 16224 [egg-security] use noopen middleware
-2017-09-22 11:05:39,584 INFO 16224 [egg-security] use nosniff middleware
-2017-09-22 11:05:39,585 INFO 16224 [egg-security] use xssProtection middleware
-2017-09-22 11:05:39,586 INFO 16224 [egg-security] use xframe middleware
-2017-09-22 11:05:39,586 INFO 16224 [egg-security] use dta middleware
-2017-09-22 11:05:39,586 INFO 16224 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 11:05:39,822 INFO 16224 [egg-watcher:app] watcher start success
-2017-09-22 14:14:39,577 WARN 16224 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 14:14:50,920 INFO 19640 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:14:51,162 INFO 19640 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:14:51,162 INFO 19640 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:14:51,641 INFO 19640 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:14:51,896 INFO 19640 [egg-security] use csrf middleware
-2017-09-22 14:14:51,897 INFO 19640 [egg-security] use methodnoallow middleware
-2017-09-22 14:14:51,897 INFO 19640 [egg-security] use noopen middleware
-2017-09-22 14:14:51,898 INFO 19640 [egg-security] use nosniff middleware
-2017-09-22 14:14:51,898 INFO 19640 [egg-security] use xssProtection middleware
-2017-09-22 14:14:51,899 INFO 19640 [egg-security] use xframe middleware
-2017-09-22 14:14:51,899 INFO 19640 [egg-security] use dta middleware
-2017-09-22 14:14:51,899 INFO 19640 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:14:52,115 INFO 19640 [egg-watcher:app] watcher start success
-2017-09-22 14:16:12,865 WARN 19640 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 14:16:33,614 INFO 21248 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:16:33,920 INFO 21248 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:16:33,920 INFO 21248 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:16:34,404 INFO 21248 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:16:34,548 INFO 21248 [egg-security] use csrf middleware
-2017-09-22 14:16:34,549 INFO 21248 [egg-security] use methodnoallow middleware
-2017-09-22 14:16:34,549 INFO 21248 [egg-security] use noopen middleware
-2017-09-22 14:16:34,550 INFO 21248 [egg-security] use nosniff middleware
-2017-09-22 14:16:34,550 INFO 21248 [egg-security] use xssProtection middleware
-2017-09-22 14:16:34,551 INFO 21248 [egg-security] use xframe middleware
-2017-09-22 14:16:34,551 INFO 21248 [egg-security] use dta middleware
-2017-09-22 14:16:34,551 INFO 21248 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:16:34,722 INFO 21248 [egg-watcher:app] watcher start success
-2017-09-22 14:17:54,683 WARN 21248 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 14:18:05,295 INFO 20620 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:18:05,605 INFO 20620 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:18:05,605 INFO 20620 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:18:06,075 INFO 20620 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:18:06,176 INFO 20620 [egg-security] use csrf middleware
-2017-09-22 14:18:06,177 INFO 20620 [egg-security] use methodnoallow middleware
-2017-09-22 14:18:06,178 INFO 20620 [egg-security] use noopen middleware
-2017-09-22 14:18:06,178 INFO 20620 [egg-security] use nosniff middleware
-2017-09-22 14:18:06,178 INFO 20620 [egg-security] use xssProtection middleware
-2017-09-22 14:18:06,179 INFO 20620 [egg-security] use xframe middleware
-2017-09-22 14:18:06,179 INFO 20620 [egg-security] use dta middleware
-2017-09-22 14:18:06,180 INFO 20620 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:18:06,328 INFO 20620 [egg-watcher:app] watcher start success
-2017-09-22 14:23:12,981 WARN 20620 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 14:25:35,120 INFO 12464 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:25:35,420 INFO 12464 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:25:35,420 INFO 12464 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:25:35,937 INFO 12464 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:25:36,075 INFO 12464 [egg-security] use csrf middleware
-2017-09-22 14:25:36,076 INFO 12464 [egg-security] use methodnoallow middleware
-2017-09-22 14:25:36,076 INFO 12464 [egg-security] use noopen middleware
-2017-09-22 14:25:36,077 INFO 12464 [egg-security] use nosniff middleware
-2017-09-22 14:25:36,077 INFO 12464 [egg-security] use xssProtection middleware
-2017-09-22 14:25:36,078 INFO 12464 [egg-security] use xframe middleware
-2017-09-22 14:25:36,078 INFO 12464 [egg-security] use dta middleware
-2017-09-22 14:25:36,078 INFO 12464 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:25:36,240 INFO 12464 [egg-watcher:app] watcher start success
-2017-09-22 14:33:00,774 INFO 8504 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:33:01,072 INFO 8504 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:33:01,072 INFO 8504 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:33:01,568 INFO 8504 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:33:01,703 INFO 8504 [egg-security] use csrf middleware
-2017-09-22 14:33:01,704 INFO 8504 [egg-security] use methodnoallow middleware
-2017-09-22 14:33:01,705 INFO 8504 [egg-security] use noopen middleware
-2017-09-22 14:33:01,705 INFO 8504 [egg-security] use nosniff middleware
-2017-09-22 14:33:01,706 INFO 8504 [egg-security] use xssProtection middleware
-2017-09-22 14:33:01,706 INFO 8504 [egg-security] use xframe middleware
-2017-09-22 14:33:01,707 INFO 8504 [egg-security] use dta middleware
-2017-09-22 14:33:01,707 INFO 8504 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:33:01,880 INFO 8504 [egg-watcher:app] watcher start success
-2017-09-22 14:34:31,026 INFO 18352 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:34:31,336 INFO 18352 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:34:31,336 INFO 18352 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:34:31,842 INFO 18352 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:34:31,974 INFO 18352 [egg-security] use csrf middleware
-2017-09-22 14:34:31,975 INFO 18352 [egg-security] use methodnoallow middleware
-2017-09-22 14:34:31,976 INFO 18352 [egg-security] use noopen middleware
-2017-09-22 14:34:31,976 INFO 18352 [egg-security] use nosniff middleware
-2017-09-22 14:34:31,976 INFO 18352 [egg-security] use xssProtection middleware
-2017-09-22 14:34:31,977 INFO 18352 [egg-security] use xframe middleware
-2017-09-22 14:34:31,978 INFO 18352 [egg-security] use dta middleware
-2017-09-22 14:34:31,978 INFO 18352 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:34:32,153 INFO 18352 [egg-watcher:app] watcher start success
-2017-09-22 14:35:53,874 WARN 18352 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 14:36:03,143 INFO 19368 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:36:03,458 INFO 19368 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:36:03,458 INFO 19368 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:36:03,985 INFO 19368 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:36:04,124 INFO 19368 [egg-security] use csrf middleware
-2017-09-22 14:36:04,125 INFO 19368 [egg-security] use methodnoallow middleware
-2017-09-22 14:36:04,125 INFO 19368 [egg-security] use noopen middleware
-2017-09-22 14:36:04,126 INFO 19368 [egg-security] use nosniff middleware
-2017-09-22 14:36:04,126 INFO 19368 [egg-security] use xssProtection middleware
-2017-09-22 14:36:04,127 INFO 19368 [egg-security] use xframe middleware
-2017-09-22 14:36:04,127 INFO 19368 [egg-security] use dta middleware
-2017-09-22 14:36:04,127 INFO 19368 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:36:04,310 INFO 19368 [egg-watcher:app] watcher start success
-2017-09-22 14:43:06,670 WARN 19368 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 14:43:16,537 INFO 21444 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:43:16,859 INFO 21444 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:43:16,859 INFO 21444 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:43:17,344 INFO 21444 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:43:17,469 INFO 21444 [egg-security] use csrf middleware
-2017-09-22 14:43:17,470 INFO 21444 [egg-security] use methodnoallow middleware
-2017-09-22 14:43:17,471 INFO 21444 [egg-security] use noopen middleware
-2017-09-22 14:43:17,471 INFO 21444 [egg-security] use nosniff middleware
-2017-09-22 14:43:17,472 INFO 21444 [egg-security] use xssProtection middleware
-2017-09-22 14:43:17,472 INFO 21444 [egg-security] use xframe middleware
-2017-09-22 14:43:17,473 INFO 21444 [egg-security] use dta middleware
-2017-09-22 14:43:17,473 INFO 21444 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:43:17,635 INFO 21444 [egg-watcher:app] watcher start success
-2017-09-22 14:45:56,583 WARN 21444 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 14:47:56,728 INFO 21364 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:47:57,048 INFO 21364 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:47:57,048 INFO 21364 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:47:57,546 INFO 21364 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:47:57,694 INFO 21364 [egg-security] use csrf middleware
-2017-09-22 14:47:57,695 INFO 21364 [egg-security] use methodnoallow middleware
-2017-09-22 14:47:57,696 INFO 21364 [egg-security] use noopen middleware
-2017-09-22 14:47:57,696 INFO 21364 [egg-security] use nosniff middleware
-2017-09-22 14:47:57,696 INFO 21364 [egg-security] use xssProtection middleware
-2017-09-22 14:47:57,697 INFO 21364 [egg-security] use xframe middleware
-2017-09-22 14:47:57,697 INFO 21364 [egg-security] use dta middleware
-2017-09-22 14:47:57,698 INFO 21364 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:47:57,934 INFO 21364 [egg-watcher:app] watcher start success
-2017-09-22 14:50:30,956 INFO 20376 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:50:31,261 INFO 20376 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:50:31,261 INFO 20376 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:50:31,746 INFO 20376 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:50:31,880 INFO 20376 [egg-security] use csrf middleware
-2017-09-22 14:50:31,881 INFO 20376 [egg-security] use methodnoallow middleware
-2017-09-22 14:50:31,881 INFO 20376 [egg-security] use noopen middleware
-2017-09-22 14:50:31,882 INFO 20376 [egg-security] use nosniff middleware
-2017-09-22 14:50:31,882 INFO 20376 [egg-security] use xssProtection middleware
-2017-09-22 14:50:31,883 INFO 20376 [egg-security] use xframe middleware
-2017-09-22 14:50:31,883 INFO 20376 [egg-security] use dta middleware
-2017-09-22 14:50:31,883 INFO 20376 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:50:32,096 INFO 20376 [egg-watcher:app] watcher start success
-2017-09-22 14:52:59,207 INFO 19360 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:52:59,518 INFO 19360 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:52:59,518 INFO 19360 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:53:00,019 INFO 19360 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:53:00,165 INFO 19360 [egg-security] use csrf middleware
-2017-09-22 14:53:00,166 INFO 19360 [egg-security] use methodnoallow middleware
-2017-09-22 14:53:00,167 INFO 19360 [egg-security] use noopen middleware
-2017-09-22 14:53:00,168 INFO 19360 [egg-security] use nosniff middleware
-2017-09-22 14:53:00,168 INFO 19360 [egg-security] use xssProtection middleware
-2017-09-22 14:53:00,169 INFO 19360 [egg-security] use xframe middleware
-2017-09-22 14:53:00,169 INFO 19360 [egg-security] use dta middleware
-2017-09-22 14:53:00,169 INFO 19360 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:53:00,408 INFO 19360 [egg-watcher:app] watcher start success
-2017-09-22 14:54:00,480 INFO 21116 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 14:54:00,791 INFO 21116 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 14:54:00,791 INFO 21116 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 14:54:01,295 INFO 21116 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 14:54:01,454 INFO 21116 [egg-security] use csrf middleware
-2017-09-22 14:54:01,455 INFO 21116 [egg-security] use methodnoallow middleware
-2017-09-22 14:54:01,456 INFO 21116 [egg-security] use noopen middleware
-2017-09-22 14:54:01,456 INFO 21116 [egg-security] use nosniff middleware
-2017-09-22 14:54:01,457 INFO 21116 [egg-security] use xssProtection middleware
-2017-09-22 14:54:01,457 INFO 21116 [egg-security] use xframe middleware
-2017-09-22 14:54:01,458 INFO 21116 [egg-security] use dta middleware
-2017-09-22 14:54:01,458 INFO 21116 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 14:54:01,706 INFO 21116 [egg-watcher:app] watcher start success
-2017-09-22 14:56:24,611 WARN 21116 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 15:01:20,993 INFO 21064 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 15:01:21,306 INFO 21064 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 15:01:21,306 INFO 21064 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 15:01:21,798 INFO 21064 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 15:01:21,959 INFO 21064 [egg-security] use csrf middleware
-2017-09-22 15:01:21,960 INFO 21064 [egg-security] use methodnoallow middleware
-2017-09-22 15:01:21,961 INFO 21064 [egg-security] use noopen middleware
-2017-09-22 15:01:21,962 INFO 21064 [egg-security] use nosniff middleware
-2017-09-22 15:01:21,963 INFO 21064 [egg-security] use xssProtection middleware
-2017-09-22 15:01:21,964 INFO 21064 [egg-security] use xframe middleware
-2017-09-22 15:01:21,964 INFO 21064 [egg-security] use dta middleware
-2017-09-22 15:01:21,964 INFO 21064 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 15:01:22,151 INFO 21064 [egg-watcher:app] watcher start success
-2017-09-22 15:09:32,640 WARN 21064 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 15:26:46,737 WARN 21064 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 15:26:58,889 INFO 20532 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 15:26:59,177 INFO 20532 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 15:26:59,177 INFO 20532 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 15:26:59,659 INFO 20532 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 15:26:59,821 INFO 20532 [egg-security] use csrf middleware
-2017-09-22 15:26:59,822 INFO 20532 [egg-security] use methodnoallow middleware
-2017-09-22 15:26:59,822 INFO 20532 [egg-security] use noopen middleware
-2017-09-22 15:26:59,823 INFO 20532 [egg-security] use nosniff middleware
-2017-09-22 15:26:59,823 INFO 20532 [egg-security] use xssProtection middleware
-2017-09-22 15:26:59,824 INFO 20532 [egg-security] use xframe middleware
-2017-09-22 15:26:59,824 INFO 20532 [egg-security] use dta middleware
-2017-09-22 15:26:59,824 INFO 20532 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 15:27:00,013 INFO 20532 [egg-watcher:app] watcher start success
-2017-09-22 15:29:55,014 INFO 20224 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 15:29:55,320 INFO 20224 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 15:29:55,320 INFO 20224 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 15:29:55,823 INFO 20224 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 15:29:55,999 INFO 20224 [egg-security] use csrf middleware
-2017-09-22 15:29:56,000 INFO 20224 [egg-security] use methodnoallow middleware
-2017-09-22 15:29:56,001 INFO 20224 [egg-security] use noopen middleware
-2017-09-22 15:29:56,001 INFO 20224 [egg-security] use nosniff middleware
-2017-09-22 15:29:56,002 INFO 20224 [egg-security] use xssProtection middleware
-2017-09-22 15:29:56,003 INFO 20224 [egg-security] use xframe middleware
-2017-09-22 15:29:56,003 INFO 20224 [egg-security] use dta middleware
-2017-09-22 15:29:56,003 INFO 20224 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 15:29:56,199 INFO 20224 [egg-watcher:app] watcher start success
-2017-09-22 15:41:52,989 INFO 20372 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
-2017-09-22 15:41:53,279 INFO 20372 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
-2017-09-22 15:41:53,279 INFO 20372 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
-2017-09-22 15:41:53,764 INFO 20372 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
-2017-09-22 15:41:53,928 INFO 20372 [egg-security] use csrf middleware
-2017-09-22 15:41:53,929 INFO 20372 [egg-security] use methodnoallow middleware
-2017-09-22 15:41:53,930 INFO 20372 [egg-security] use noopen middleware
-2017-09-22 15:41:53,930 INFO 20372 [egg-security] use nosniff middleware
-2017-09-22 15:41:53,930 INFO 20372 [egg-security] use xssProtection middleware
-2017-09-22 15:41:53,931 INFO 20372 [egg-security] use xframe middleware
-2017-09-22 15:41:53,932 INFO 20372 [egg-security] use dta middleware
-2017-09-22 15:41:53,932 INFO 20372 [egg-security] compose 7 middlewares into one security middleware
-2017-09-22 15:41:54,109 INFO 20372 [egg-watcher:app] watcher start success
-2017-09-22 16:27:08,544 WARN 20372 [ClusterClient:Watcher] follower closed, and try to init it again
-2017-09-22 16:34:57,202 WARN 20372 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 00:00:01,102 INFO 19800 [egg-logrotator] app logger reload: got log-reload message
+2017-09-25 09:23:25,233 INFO 17824 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 09:23:25,537 INFO 17824 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 09:23:25,537 INFO 17824 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 09:23:26,005 INFO 17824 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 09:23:26,169 INFO 17824 [egg-security] use csrf middleware
+2017-09-25 09:23:26,170 INFO 17824 [egg-security] use methodnoallow middleware
+2017-09-25 09:23:26,171 INFO 17824 [egg-security] use noopen middleware
+2017-09-25 09:23:26,171 INFO 17824 [egg-security] use nosniff middleware
+2017-09-25 09:23:26,171 INFO 17824 [egg-security] use xssProtection middleware
+2017-09-25 09:23:26,172 INFO 17824 [egg-security] use xframe middleware
+2017-09-25 09:23:26,172 INFO 17824 [egg-security] use dta middleware
+2017-09-25 09:23:26,172 INFO 17824 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 09:23:26,367 INFO 17824 [egg-watcher:app] watcher start success
+2017-09-25 09:38:05,371 WARN 17824 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 09:38:16,675 INFO 18892 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 09:38:16,983 INFO 18892 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 09:38:16,983 INFO 18892 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 09:38:17,465 INFO 18892 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 09:38:17,636 INFO 18892 [egg-security] use csrf middleware
+2017-09-25 09:38:17,637 INFO 18892 [egg-security] use methodnoallow middleware
+2017-09-25 09:38:17,637 INFO 18892 [egg-security] use noopen middleware
+2017-09-25 09:38:17,638 INFO 18892 [egg-security] use nosniff middleware
+2017-09-25 09:38:17,638 INFO 18892 [egg-security] use xssProtection middleware
+2017-09-25 09:38:17,639 INFO 18892 [egg-security] use xframe middleware
+2017-09-25 09:38:17,639 INFO 18892 [egg-security] use dta middleware
+2017-09-25 09:38:17,639 INFO 18892 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 09:38:17,827 INFO 18892 [egg-watcher:app] watcher start success
+2017-09-25 09:39:49,884 WARN 18892 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 09:45:41,080 WARN 18892 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 09:56:03,893 INFO 11400 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 09:56:04,209 INFO 11400 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 09:56:04,209 INFO 11400 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 09:56:04,683 INFO 11400 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 09:56:04,853 INFO 11400 [egg-security] use csrf middleware
+2017-09-25 09:56:04,854 INFO 11400 [egg-security] use methodnoallow middleware
+2017-09-25 09:56:04,854 INFO 11400 [egg-security] use noopen middleware
+2017-09-25 09:56:04,855 INFO 11400 [egg-security] use nosniff middleware
+2017-09-25 09:56:04,855 INFO 11400 [egg-security] use xssProtection middleware
+2017-09-25 09:56:04,856 INFO 11400 [egg-security] use xframe middleware
+2017-09-25 09:56:04,856 INFO 11400 [egg-security] use dta middleware
+2017-09-25 09:56:04,856 INFO 11400 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 09:56:05,037 INFO 11400 [egg-watcher:app] watcher start success
+2017-09-25 09:56:23,157 INFO 19896 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 09:56:23,461 INFO 19896 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 09:56:23,461 INFO 19896 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 09:56:23,941 INFO 19896 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 09:56:24,022 INFO 19896 [egg-security] use csrf middleware
+2017-09-25 09:56:24,022 INFO 19896 [egg-security] use methodnoallow middleware
+2017-09-25 09:56:24,023 INFO 19896 [egg-security] use noopen middleware
+2017-09-25 09:56:24,023 INFO 19896 [egg-security] use nosniff middleware
+2017-09-25 09:56:24,024 INFO 19896 [egg-security] use xssProtection middleware
+2017-09-25 09:56:24,025 INFO 19896 [egg-security] use xframe middleware
+2017-09-25 09:56:24,026 INFO 19896 [egg-security] use dta middleware
+2017-09-25 09:56:24,026 INFO 19896 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 09:56:24,116 INFO 19896 [egg-watcher:app] watcher start success
+2017-09-25 09:58:22,665 INFO 21012 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 09:58:22,964 INFO 21012 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 09:58:22,964 INFO 21012 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 09:58:23,439 INFO 21012 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 09:58:23,606 INFO 21012 [egg-security] use csrf middleware
+2017-09-25 09:58:23,607 INFO 21012 [egg-security] use methodnoallow middleware
+2017-09-25 09:58:23,607 INFO 21012 [egg-security] use noopen middleware
+2017-09-25 09:58:23,608 INFO 21012 [egg-security] use nosniff middleware
+2017-09-25 09:58:23,608 INFO 21012 [egg-security] use xssProtection middleware
+2017-09-25 09:58:23,609 INFO 21012 [egg-security] use xframe middleware
+2017-09-25 09:58:23,609 INFO 21012 [egg-security] use dta middleware
+2017-09-25 09:58:23,609 INFO 21012 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 09:58:23,799 INFO 21012 [egg-watcher:app] watcher start success
+2017-09-25 09:59:59,576 WARN 21012 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 10:00:26,631 INFO 11020 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 10:00:26,939 INFO 11020 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 10:00:26,939 INFO 11020 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 10:00:27,417 INFO 11020 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 10:00:27,495 INFO 11020 [egg-security] use csrf middleware
+2017-09-25 10:00:27,496 INFO 11020 [egg-security] use methodnoallow middleware
+2017-09-25 10:00:27,497 INFO 11020 [egg-security] use noopen middleware
+2017-09-25 10:00:27,497 INFO 11020 [egg-security] use nosniff middleware
+2017-09-25 10:00:27,498 INFO 11020 [egg-security] use xssProtection middleware
+2017-09-25 10:00:27,498 INFO 11020 [egg-security] use xframe middleware
+2017-09-25 10:00:27,499 INFO 11020 [egg-security] use dta middleware
+2017-09-25 10:00:27,499 INFO 11020 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 10:00:27,587 INFO 11020 [egg-watcher:app] watcher start success
+2017-09-25 10:12:07,091 INFO 22160 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 10:12:07,404 INFO 22160 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 10:12:07,404 INFO 22160 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 10:12:07,915 INFO 22160 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 10:12:08,098 INFO 22160 [egg-security] use csrf middleware
+2017-09-25 10:12:08,099 INFO 22160 [egg-security] use methodnoallow middleware
+2017-09-25 10:12:08,099 INFO 22160 [egg-security] use noopen middleware
+2017-09-25 10:12:08,099 INFO 22160 [egg-security] use nosniff middleware
+2017-09-25 10:12:08,100 INFO 22160 [egg-security] use xssProtection middleware
+2017-09-25 10:12:08,100 INFO 22160 [egg-security] use xframe middleware
+2017-09-25 10:12:08,101 INFO 22160 [egg-security] use dta middleware
+2017-09-25 10:12:08,101 INFO 22160 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 10:12:08,297 INFO 22160 [egg-watcher:app] watcher start success
+2017-09-25 10:13:52,953 WARN 22160 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 10:16:07,917 WARN 22160 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 10:16:43,812 INFO 21316 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 10:16:44,119 INFO 21316 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 10:16:44,119 INFO 21316 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 10:16:44,606 INFO 21316 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 10:16:44,781 INFO 21316 [egg-security] use csrf middleware
+2017-09-25 10:16:44,782 INFO 21316 [egg-security] use methodnoallow middleware
+2017-09-25 10:16:44,782 INFO 21316 [egg-security] use noopen middleware
+2017-09-25 10:16:44,783 INFO 21316 [egg-security] use nosniff middleware
+2017-09-25 10:16:44,783 INFO 21316 [egg-security] use xssProtection middleware
+2017-09-25 10:16:44,784 INFO 21316 [egg-security] use xframe middleware
+2017-09-25 10:16:44,784 INFO 21316 [egg-security] use dta middleware
+2017-09-25 10:16:44,784 INFO 21316 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 10:16:44,991 INFO 21316 [egg-watcher:app] watcher start success
+2017-09-25 10:28:42,238 INFO 2784 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 10:28:42,617 INFO 2784 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 10:28:42,617 INFO 2784 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 10:28:43,412 INFO 2784 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 10:28:43,610 INFO 2784 [egg-security] use csrf middleware
+2017-09-25 10:28:43,611 INFO 2784 [egg-security] use methodnoallow middleware
+2017-09-25 10:28:43,612 INFO 2784 [egg-security] use noopen middleware
+2017-09-25 10:28:43,612 INFO 2784 [egg-security] use nosniff middleware
+2017-09-25 10:28:43,613 INFO 2784 [egg-security] use xssProtection middleware
+2017-09-25 10:28:43,613 INFO 2784 [egg-security] use xframe middleware
+2017-09-25 10:28:43,614 INFO 2784 [egg-security] use dta middleware
+2017-09-25 10:28:43,614 INFO 2784 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 10:28:43,779 INFO 2784 [egg-watcher:app] watcher start success
+2017-09-25 10:30:49,065 INFO 10860 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 10:30:49,378 INFO 10860 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 10:30:49,378 INFO 10860 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 10:30:49,887 INFO 10860 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 10:30:50,041 INFO 10860 [egg-security] use csrf middleware
+2017-09-25 10:30:50,042 INFO 10860 [egg-security] use methodnoallow middleware
+2017-09-25 10:30:50,043 INFO 10860 [egg-security] use noopen middleware
+2017-09-25 10:30:50,043 INFO 10860 [egg-security] use nosniff middleware
+2017-09-25 10:30:50,043 INFO 10860 [egg-security] use xssProtection middleware
+2017-09-25 10:30:50,044 INFO 10860 [egg-security] use xframe middleware
+2017-09-25 10:30:50,044 INFO 10860 [egg-security] use dta middleware
+2017-09-25 10:30:50,045 INFO 10860 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 10:30:50,230 INFO 10860 [egg-watcher:app] watcher start success
+2017-09-25 10:40:24,429 INFO 2088 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 10:40:24,714 INFO 2088 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 10:40:24,714 INFO 2088 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 10:40:25,188 INFO 2088 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 10:40:25,327 INFO 2088 [egg-security] use csrf middleware
+2017-09-25 10:40:25,328 INFO 2088 [egg-security] use methodnoallow middleware
+2017-09-25 10:40:25,329 INFO 2088 [egg-security] use noopen middleware
+2017-09-25 10:40:25,330 INFO 2088 [egg-security] use nosniff middleware
+2017-09-25 10:40:25,330 INFO 2088 [egg-security] use xssProtection middleware
+2017-09-25 10:40:25,331 INFO 2088 [egg-security] use xframe middleware
+2017-09-25 10:40:25,332 INFO 2088 [egg-security] use dta middleware
+2017-09-25 10:40:25,332 INFO 2088 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 10:40:25,516 INFO 2088 [egg-watcher:app] watcher start success
+2017-09-25 10:42:31,060 INFO 9348 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 10:42:31,343 INFO 9348 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 10:42:31,343 INFO 9348 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 10:42:31,829 INFO 9348 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 10:42:31,974 INFO 9348 [egg-security] use csrf middleware
+2017-09-25 10:42:31,975 INFO 9348 [egg-security] use methodnoallow middleware
+2017-09-25 10:42:31,975 INFO 9348 [egg-security] use noopen middleware
+2017-09-25 10:42:31,976 INFO 9348 [egg-security] use nosniff middleware
+2017-09-25 10:42:31,976 INFO 9348 [egg-security] use xssProtection middleware
+2017-09-25 10:42:31,977 INFO 9348 [egg-security] use xframe middleware
+2017-09-25 10:42:31,978 INFO 9348 [egg-security] use dta middleware
+2017-09-25 10:42:31,978 INFO 9348 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 10:42:32,144 INFO 9348 [egg-watcher:app] watcher start success
+2017-09-25 10:43:52,644 WARN 9348 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 10:45:11,170 WARN 9348 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 10:47:36,222 WARN 9348 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 10:56:34,799 INFO 8268 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 10:56:35,092 INFO 8268 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 10:56:35,092 INFO 8268 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 10:56:35,593 INFO 8268 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 10:56:35,745 INFO 8268 [egg-security] use csrf middleware
+2017-09-25 10:56:35,745 INFO 8268 [egg-security] use methodnoallow middleware
+2017-09-25 10:56:35,746 INFO 8268 [egg-security] use noopen middleware
+2017-09-25 10:56:35,746 INFO 8268 [egg-security] use nosniff middleware
+2017-09-25 10:56:35,747 INFO 8268 [egg-security] use xssProtection middleware
+2017-09-25 10:56:35,747 INFO 8268 [egg-security] use xframe middleware
+2017-09-25 10:56:35,748 INFO 8268 [egg-security] use dta middleware
+2017-09-25 10:56:35,748 INFO 8268 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 10:56:35,933 INFO 8268 [egg-watcher:app] watcher start success
+2017-09-25 11:01:54,452 WARN 8268 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 14:22:53,286 INFO 7840 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 14:22:53,579 INFO 7840 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 14:22:53,579 INFO 7840 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 14:22:54,150 INFO 7840 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 14:22:54,364 INFO 7840 [egg-security] use csrf middleware
+2017-09-25 14:22:54,367 INFO 7840 [egg-security] use methodnoallow middleware
+2017-09-25 14:22:54,369 INFO 7840 [egg-security] use noopen middleware
+2017-09-25 14:22:54,371 INFO 7840 [egg-security] use nosniff middleware
+2017-09-25 14:22:54,372 INFO 7840 [egg-security] use xssProtection middleware
+2017-09-25 14:22:54,374 INFO 7840 [egg-security] use xframe middleware
+2017-09-25 14:22:54,376 INFO 7840 [egg-security] use dta middleware
+2017-09-25 14:22:54,376 INFO 7840 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 14:22:54,626 INFO 7840 [egg-watcher:app] watcher start success
+2017-09-25 14:26:01,517 INFO 5476 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 14:26:01,847 INFO 5476 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 14:26:01,847 INFO 5476 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 14:26:02,332 INFO 5476 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 14:26:02,485 INFO 5476 [egg-security] use csrf middleware
+2017-09-25 14:26:02,486 INFO 5476 [egg-security] use methodnoallow middleware
+2017-09-25 14:26:02,487 INFO 5476 [egg-security] use noopen middleware
+2017-09-25 14:26:02,488 INFO 5476 [egg-security] use nosniff middleware
+2017-09-25 14:26:02,489 INFO 5476 [egg-security] use xssProtection middleware
+2017-09-25 14:26:02,490 INFO 5476 [egg-security] use xframe middleware
+2017-09-25 14:26:02,491 INFO 5476 [egg-security] use dta middleware
+2017-09-25 14:26:02,491 INFO 5476 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 14:26:02,690 INFO 5476 [egg-watcher:app] watcher start success
+2017-09-25 14:27:09,761 WARN 5476 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 16:06:20,356 INFO 11916 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 16:06:20,630 INFO 11916 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 16:06:20,630 INFO 11916 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 16:06:21,112 INFO 11916 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 16:06:21,278 INFO 11916 [egg-security] use csrf middleware
+2017-09-25 16:06:21,280 INFO 11916 [egg-security] use methodnoallow middleware
+2017-09-25 16:06:21,280 INFO 11916 [egg-security] use noopen middleware
+2017-09-25 16:06:21,280 INFO 11916 [egg-security] use nosniff middleware
+2017-09-25 16:06:21,281 INFO 11916 [egg-security] use xssProtection middleware
+2017-09-25 16:06:21,282 INFO 11916 [egg-security] use xframe middleware
+2017-09-25 16:06:21,283 INFO 11916 [egg-security] use dta middleware
+2017-09-25 16:06:21,283 INFO 11916 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 16:06:21,452 INFO 11916 [egg-watcher:app] watcher start success
+2017-09-25 16:11:07,859 INFO 5348 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 16:11:08,143 INFO 5348 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 16:11:08,143 INFO 5348 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 16:11:08,616 INFO 5348 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 16:11:08,775 INFO 5348 [egg-security] use csrf middleware
+2017-09-25 16:11:08,776 INFO 5348 [egg-security] use methodnoallow middleware
+2017-09-25 16:11:08,777 INFO 5348 [egg-security] use noopen middleware
+2017-09-25 16:11:08,778 INFO 5348 [egg-security] use nosniff middleware
+2017-09-25 16:11:08,778 INFO 5348 [egg-security] use xssProtection middleware
+2017-09-25 16:11:08,779 INFO 5348 [egg-security] use xframe middleware
+2017-09-25 16:11:08,780 INFO 5348 [egg-security] use dta middleware
+2017-09-25 16:11:08,780 INFO 5348 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 16:11:08,960 INFO 5348 [egg-watcher:app] watcher start success
+2017-09-25 16:39:52,319 WARN 5348 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 16:41:12,203 INFO 12272 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 16:41:12,500 INFO 12272 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 16:41:12,500 INFO 12272 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 16:41:12,989 INFO 12272 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 16:41:13,152 INFO 12272 [egg-security] use csrf middleware
+2017-09-25 16:41:13,153 INFO 12272 [egg-security] use methodnoallow middleware
+2017-09-25 16:41:13,154 INFO 12272 [egg-security] use noopen middleware
+2017-09-25 16:41:13,155 INFO 12272 [egg-security] use nosniff middleware
+2017-09-25 16:41:13,156 INFO 12272 [egg-security] use xssProtection middleware
+2017-09-25 16:41:13,157 INFO 12272 [egg-security] use xframe middleware
+2017-09-25 16:41:13,158 INFO 12272 [egg-security] use dta middleware
+2017-09-25 16:41:13,158 INFO 12272 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 16:41:13,363 INFO 12272 [egg-watcher:app] watcher start success
+2017-09-25 16:46:01,890 WARN 12272 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 16:46:12,442 INFO 10456 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 16:46:12,775 INFO 10456 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 16:46:12,775 INFO 10456 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 16:46:13,279 INFO 10456 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 16:46:13,434 INFO 10456 [egg-security] use csrf middleware
+2017-09-25 16:46:13,435 INFO 10456 [egg-security] use methodnoallow middleware
+2017-09-25 16:46:13,435 INFO 10456 [egg-security] use noopen middleware
+2017-09-25 16:46:13,436 INFO 10456 [egg-security] use nosniff middleware
+2017-09-25 16:46:13,436 INFO 10456 [egg-security] use xssProtection middleware
+2017-09-25 16:46:13,437 INFO 10456 [egg-security] use xframe middleware
+2017-09-25 16:46:13,437 INFO 10456 [egg-security] use dta middleware
+2017-09-25 16:46:13,437 INFO 10456 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 16:46:13,595 INFO 10456 [egg-watcher:app] watcher start success
+2017-09-25 16:47:54,563 WARN 10456 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 16:48:08,781 INFO 11884 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 16:48:09,160 INFO 11884 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 16:48:09,160 INFO 11884 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 16:48:09,691 INFO 11884 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 16:48:09,858 INFO 11884 [egg-security] use csrf middleware
+2017-09-25 16:48:09,861 INFO 11884 [egg-security] use methodnoallow middleware
+2017-09-25 16:48:09,861 INFO 11884 [egg-security] use noopen middleware
+2017-09-25 16:48:09,862 INFO 11884 [egg-security] use nosniff middleware
+2017-09-25 16:48:09,863 INFO 11884 [egg-security] use xssProtection middleware
+2017-09-25 16:48:09,863 INFO 11884 [egg-security] use xframe middleware
+2017-09-25 16:48:09,863 INFO 11884 [egg-security] use dta middleware
+2017-09-25 16:48:09,864 INFO 11884 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 16:48:10,051 INFO 11884 [egg-watcher:app] watcher start success
+2017-09-25 17:29:07,245 WARN 11884 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 17:30:57,077 WARN 11884 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 17:33:16,390 INFO 12880 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 17:33:16,665 INFO 12880 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 17:33:16,665 INFO 12880 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 17:33:17,167 INFO 12880 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 17:33:17,315 INFO 12880 [egg-security] use csrf middleware
+2017-09-25 17:33:17,316 INFO 12880 [egg-security] use methodnoallow middleware
+2017-09-25 17:33:17,316 INFO 12880 [egg-security] use noopen middleware
+2017-09-25 17:33:17,317 INFO 12880 [egg-security] use nosniff middleware
+2017-09-25 17:33:17,318 INFO 12880 [egg-security] use xssProtection middleware
+2017-09-25 17:33:17,319 INFO 12880 [egg-security] use xframe middleware
+2017-09-25 17:33:17,319 INFO 12880 [egg-security] use dta middleware
+2017-09-25 17:33:17,319 INFO 12880 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 17:33:17,523 INFO 12880 [egg-watcher:app] watcher start success
+2017-09-25 17:34:53,665 WARN 12880 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 17:41:35,680 INFO 12992 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 17:41:35,950 INFO 12992 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 17:41:35,950 INFO 12992 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 17:41:36,415 INFO 12992 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 17:41:36,528 INFO 12992 [egg-security] use csrf middleware
+2017-09-25 17:41:36,530 INFO 12992 [egg-security] use methodnoallow middleware
+2017-09-25 17:41:36,530 INFO 12992 [egg-security] use noopen middleware
+2017-09-25 17:41:36,531 INFO 12992 [egg-security] use nosniff middleware
+2017-09-25 17:41:36,531 INFO 12992 [egg-security] use xssProtection middleware
+2017-09-25 17:41:36,532 INFO 12992 [egg-security] use xframe middleware
+2017-09-25 17:41:36,533 INFO 12992 [egg-security] use dta middleware
+2017-09-25 17:41:36,533 INFO 12992 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 17:41:36,701 INFO 12992 [egg-watcher:app] watcher start success
+2017-09-25 17:43:06,196 WARN 12992 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 17:51:32,479 WARN 12992 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 17:51:42,326 INFO 11064 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 17:51:42,634 INFO 11064 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 17:51:42,634 INFO 11064 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 17:51:43,207 INFO 11064 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 17:51:43,307 INFO 11064 [egg-security] use csrf middleware
+2017-09-25 17:51:43,309 INFO 11064 [egg-security] use methodnoallow middleware
+2017-09-25 17:51:43,309 INFO 11064 [egg-security] use noopen middleware
+2017-09-25 17:51:43,310 INFO 11064 [egg-security] use nosniff middleware
+2017-09-25 17:51:43,310 INFO 11064 [egg-security] use xssProtection middleware
+2017-09-25 17:51:43,311 INFO 11064 [egg-security] use xframe middleware
+2017-09-25 17:51:43,312 INFO 11064 [egg-security] use dta middleware
+2017-09-25 17:51:43,312 INFO 11064 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 17:51:43,501 INFO 11064 [egg-watcher:app] watcher start success
+2017-09-25 17:56:57,778 WARN 11064 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-09-25 17:57:10,183 INFO 4176 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 17:57:10,483 INFO 4176 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 17:57:10,483 INFO 4176 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 17:57:10,979 INFO 4176 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 17:57:11,102 INFO 4176 [egg-security] use csrf middleware
+2017-09-25 17:57:11,103 INFO 4176 [egg-security] use methodnoallow middleware
+2017-09-25 17:57:11,104 INFO 4176 [egg-security] use noopen middleware
+2017-09-25 17:57:11,105 INFO 4176 [egg-security] use nosniff middleware
+2017-09-25 17:57:11,105 INFO 4176 [egg-security] use xssProtection middleware
+2017-09-25 17:57:11,106 INFO 4176 [egg-security] use xframe middleware
+2017-09-25 17:57:11,107 INFO 4176 [egg-security] use dta middleware
+2017-09-25 17:57:11,107 INFO 4176 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 17:57:11,292 INFO 4176 [egg-watcher:app] watcher start success
+2017-09-25 18:02:12,940 INFO 11784 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 18:02:13,232 INFO 11784 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 18:02:13,232 INFO 11784 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 18:02:13,732 INFO 11784 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 18:02:13,854 INFO 11784 [egg-security] use csrf middleware
+2017-09-25 18:02:13,855 INFO 11784 [egg-security] use methodnoallow middleware
+2017-09-25 18:02:13,855 INFO 11784 [egg-security] use noopen middleware
+2017-09-25 18:02:13,856 INFO 11784 [egg-security] use nosniff middleware
+2017-09-25 18:02:13,857 INFO 11784 [egg-security] use xssProtection middleware
+2017-09-25 18:02:13,857 INFO 11784 [egg-security] use xframe middleware
+2017-09-25 18:02:13,858 INFO 11784 [egg-security] use dta middleware
+2017-09-25 18:02:13,858 INFO 11784 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 18:02:14,053 INFO 11784 [egg-watcher:app] watcher start success
+2017-09-25 18:02:53,395 INFO 11892 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 18:02:53,684 INFO 11892 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 18:02:53,684 INFO 11892 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 18:02:54,196 INFO 11892 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 18:02:54,324 INFO 11892 [egg-security] use csrf middleware
+2017-09-25 18:02:54,326 INFO 11892 [egg-security] use methodnoallow middleware
+2017-09-25 18:02:54,328 INFO 11892 [egg-security] use noopen middleware
+2017-09-25 18:02:54,329 INFO 11892 [egg-security] use nosniff middleware
+2017-09-25 18:02:54,330 INFO 11892 [egg-security] use xssProtection middleware
+2017-09-25 18:02:54,332 INFO 11892 [egg-security] use xframe middleware
+2017-09-25 18:02:54,333 INFO 11892 [egg-security] use dta middleware
+2017-09-25 18:02:54,333 INFO 11892 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 18:02:54,559 INFO 11892 [egg-watcher:app] watcher start success
+2017-09-25 18:03:50,743 INFO 2656 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 18:03:51,065 INFO 2656 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 18:03:51,065 INFO 2656 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 18:03:51,582 INFO 2656 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 18:03:51,714 INFO 2656 [egg-security] use csrf middleware
+2017-09-25 18:03:51,715 INFO 2656 [egg-security] use methodnoallow middleware
+2017-09-25 18:03:51,715 INFO 2656 [egg-security] use noopen middleware
+2017-09-25 18:03:51,715 INFO 2656 [egg-security] use nosniff middleware
+2017-09-25 18:03:51,716 INFO 2656 [egg-security] use xssProtection middleware
+2017-09-25 18:03:51,717 INFO 2656 [egg-security] use xframe middleware
+2017-09-25 18:03:51,717 INFO 2656 [egg-security] use dta middleware
+2017-09-25 18:03:51,717 INFO 2656 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 18:03:51,920 INFO 2656 [egg-watcher:app] watcher start success
+2017-09-25 18:04:47,040 INFO 13304 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 18:04:47,321 INFO 13304 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 18:04:47,321 INFO 13304 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 18:04:47,823 INFO 13304 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 18:04:47,934 INFO 13304 [egg-security] use csrf middleware
+2017-09-25 18:04:47,935 INFO 13304 [egg-security] use methodnoallow middleware
+2017-09-25 18:04:47,935 INFO 13304 [egg-security] use noopen middleware
+2017-09-25 18:04:47,936 INFO 13304 [egg-security] use nosniff middleware
+2017-09-25 18:04:47,936 INFO 13304 [egg-security] use xssProtection middleware
+2017-09-25 18:04:47,937 INFO 13304 [egg-security] use xframe middleware
+2017-09-25 18:04:47,937 INFO 13304 [egg-security] use dta middleware
+2017-09-25 18:04:47,937 INFO 13304 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 18:04:48,135 INFO 13304 [egg-watcher:app] watcher start success
+2017-09-25 18:05:25,940 INFO 12612 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 18:05:26,235 INFO 12612 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 18:05:26,235 INFO 12612 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 18:05:26,718 INFO 12612 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 18:05:26,838 INFO 12612 [egg-security] use csrf middleware
+2017-09-25 18:05:26,839 INFO 12612 [egg-security] use methodnoallow middleware
+2017-09-25 18:05:26,839 INFO 12612 [egg-security] use noopen middleware
+2017-09-25 18:05:26,840 INFO 12612 [egg-security] use nosniff middleware
+2017-09-25 18:05:26,841 INFO 12612 [egg-security] use xssProtection middleware
+2017-09-25 18:05:26,842 INFO 12612 [egg-security] use xframe middleware
+2017-09-25 18:05:26,842 INFO 12612 [egg-security] use dta middleware
+2017-09-25 18:05:26,842 INFO 12612 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 18:05:27,027 INFO 12612 [egg-watcher:app] watcher start success
+2017-09-25 18:20:38,741 INFO 8976 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 18:20:39,017 INFO 8976 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 18:20:39,017 INFO 8976 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 18:20:39,488 INFO 8976 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 18:20:39,600 INFO 8976 [egg-security] use csrf middleware
+2017-09-25 18:20:39,601 INFO 8976 [egg-security] use methodnoallow middleware
+2017-09-25 18:20:39,601 INFO 8976 [egg-security] use noopen middleware
+2017-09-25 18:20:39,602 INFO 8976 [egg-security] use nosniff middleware
+2017-09-25 18:20:39,602 INFO 8976 [egg-security] use xssProtection middleware
+2017-09-25 18:20:39,603 INFO 8976 [egg-security] use xframe middleware
+2017-09-25 18:20:39,604 INFO 8976 [egg-security] use dta middleware
+2017-09-25 18:20:39,604 INFO 8976 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 18:20:39,770 INFO 8976 [egg-watcher:app] watcher start success
+2017-09-25 18:21:18,092 INFO 13340 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-09-25 18:21:18,329 INFO 13340 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-25 18:21:18,329 INFO 13340 [egg-schedule]: register schedule egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-25 18:21:18,824 INFO 13340 [egg-static] starting static serve /public/ -> D:\web\unhappy\app\public
+2017-09-25 18:21:18,952 INFO 13340 [egg-security] use csrf middleware
+2017-09-25 18:21:18,953 INFO 13340 [egg-security] use methodnoallow middleware
+2017-09-25 18:21:18,954 INFO 13340 [egg-security] use noopen middleware
+2017-09-25 18:21:18,955 INFO 13340 [egg-security] use nosniff middleware
+2017-09-25 18:21:18,957 INFO 13340 [egg-security] use xssProtection middleware
+2017-09-25 18:21:18,958 INFO 13340 [egg-security] use xframe middleware
+2017-09-25 18:21:18,959 INFO 13340 [egg-security] use dta middleware
+2017-09-25 18:21:18,959 INFO 13340 [egg-security] compose 7 middlewares into one security middleware
+2017-09-25 18:21:19,190 INFO 13340 [egg-watcher:app] watcher start success

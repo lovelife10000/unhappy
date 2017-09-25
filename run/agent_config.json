@@ -218,7 +218,9 @@
       "devDependencies": {},
       "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "unhappy-bin dev"
+        "dev": "unhappy-bin dev",
+        "dev2": "unhappy-binl dev",
+        "dev3": "node app.js"
       },
       "repository": {
         "type": "git",

@@ -1,0 +1,8 @@
+2017-09-23 00:00:00,343 INFO 19800 [egg-logrotator] app logger reload: got log-reload message
+2017-09-24 00:00:01,071 INFO 19800 [egg-schedule]: get message egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-24 00:00:01,072 INFO 19800 [egg-logrotator] clean all log before 31 days
+2017-09-24 00:00:01,072 INFO 19800 [egg-schedule] egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js excute succeed, used 1ms
+2017-09-24 00:00:01,082 INFO 19800 [egg-schedule]: get message egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-24 00:00:01,093 INFO 19800 [egg-logrotator] broadcast log-reload
+2017-09-24 00:00:01,097 INFO 19800 [egg-logrotator] rotate files success by DayRotator, files ["D:\\web\\unhappy\\logs\\unhappy\\common-error.log -> D:\\web\\unhappy\\logs\\unhappy\\common-error.log.2017-09-23","D:\\web\\unhappy\\logs\\unhappy\\unhappy-web.log -> D:\\web\\unhappy\\logs\\unhappy\\unhappy-web.log.2017-09-23","D:\\web\\unhappy\\logs\\unhappy\\egg-web.log -> D:\\web\\unhappy\\logs\\unhappy\\egg-web.log.2017-09-23","D:\\web\\unhappy\\logs\\unhappy\\egg-agent.log -> D:\\web\\unhappy\\logs\\unhappy\\egg-agent.log.2017-09-23"]
+2017-09-24 00:00:01,097 INFO 19800 [egg-schedule] egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js excute succeed, used 15ms

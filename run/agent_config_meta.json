@@ -214,7 +214,9 @@
     "devDependencies": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
     "scripts": {
       "test": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
-      "dev": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
+      "dev": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "dev2": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
+      "dev3": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js"
     },
     "repository": {
       "type": "D:\\web\\unhappy\\node_modules\\unhappy-app\\config\\config.default.js",
