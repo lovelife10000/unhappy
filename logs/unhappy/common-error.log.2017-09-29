@@ -1,0 +1,27 @@
+2017-09-29 09:16:03,483 ERROR 16644 nodejs.ServerNoResponseError: server 127.0.0.1:60061 no response in 20014ms, maybe the socket is end on the other side. (address: 127.0.0.1:60061)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 16644
+hostname: v_lljunli-PC0
+
+2017-09-29 10:28:23,084 ERROR 22076 nodejs.ServerNoResponseError: server 127.0.0.1:55042 no response in 20017ms, maybe the socket is end on the other side. (address: 127.0.0.1:55042)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 22076
+hostname: v_lljunli-PC0
+
+2017-09-30 15:10:59,675 ERROR 24816 nodejs.ClusterClientNoResponseError: client no response in 103376446ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 24816
+hostname: v_lljunli-PC0
+

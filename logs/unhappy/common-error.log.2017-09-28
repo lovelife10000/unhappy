@@ -1,0 +1,1291 @@
+2017-09-25 09:24:46,366 ERROR 17824 nodejs.ServerNoResponseError: server 127.0.0.1:60631 no response in 32078ms, maybe the socket is end on the other side. (address: 127.0.0.1:60631)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 17824
+hostname: v_lljunli-PC0
+
+2017-09-25 09:38:05,355 ERROR 17804 nodejs.ClusterClientNoResponseError: client no response in 838987ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 17804
+hostname: v_lljunli-PC0
+
+2017-09-25 09:38:57,828 ERROR 18892 nodejs.ServerNoResponseError: server 127.0.0.1:55812 no response in 20014ms, maybe the socket is end on the other side. (address: 127.0.0.1:55812)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 18892
+hostname: v_lljunli-PC0
+
+2017-09-25 09:39:49,879 ERROR 16068 nodejs.ClusterClientNoResponseError: client no response in 72048ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 16068
+hostname: v_lljunli-PC0
+
+2017-09-25 09:40:29,939 ERROR 18892 nodejs.ServerNoResponseError: server 127.0.0.1:55812 no response in 20011ms, maybe the socket is end on the other side. (address: 127.0.0.1:55812)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 18892
+hostname: v_lljunli-PC0
+
+2017-09-25 09:43:24,141 ERROR 16068 nodejs.ClusterClientNoResponseError: client no response in 194203ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 16068
+hostname: v_lljunli-PC0
+
+2017-09-25 09:59:43,801 ERROR 21012 nodejs.ServerNoResponseError: server 127.0.0.1:58313 no response in 39993ms, maybe the socket is end on the other side. (address: 127.0.0.1:58313)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 21012
+hostname: v_lljunli-PC0
+
+2017-09-25 10:13:48,300 ERROR 22160 nodejs.ServerNoResponseError: server 127.0.0.1:63479 no response in 32881ms, maybe the socket is end on the other side. (address: 127.0.0.1:63479)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 22160
+hostname: v_lljunli-PC0
+
+2017-09-25 10:13:48,311 ERROR 13072 nodejs.ClusterClientNoResponseError: client no response in 60011ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 13072
+hostname: v_lljunli-PC0
+
+2017-09-25 10:14:22,125 ERROR 22160 nodejs.TcpConnectionTimeoutError: [TCPBase] socket connect timeout (3000ms) (address: 127.0.0.1:63479) (127.0.0.1)
+    at Socket.socket.setTimeout (D:\web\unhappy\node_modules\tcp-base\lib\base.js:399:19)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Socket.emit (events.js:207:7)
+    at Socket._onTimeout (net.js:398:8)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'TcpConnectionTimeoutError'
+host: '127.0.0.1'
+port: 63479
+pid: 22160
+hostname: v_lljunli-PC0
+
+2017-09-25 10:16:07,867 ERROR 22160 nodejs.TcpConnectionTimeoutError: [TCPBase] socket connect timeout (3000ms) (address: 127.0.0.1:63479) (127.0.0.1) (127.0.0.1) (127.0.0.1)
+    at Socket.socket.setTimeout (D:\web\unhappy\node_modules\tcp-base\lib\base.js:399:19)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Socket.emit (events.js:207:7)
+    at Socket._onTimeout (net.js:398:8)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'TcpConnectionTimeoutError'
+host: '127.0.0.1'
+port: 63479
+pid: 22160
+hostname: v_lljunli-PC0
+
+2017-09-25 10:43:12,146 ERROR 9348 nodejs.ServerNoResponseError: server 127.0.0.1:50438 no response in 20021ms, maybe the socket is end on the other side. (address: 127.0.0.1:50438)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 9348
+hostname: v_lljunli-PC0
+
+2017-09-25 10:44:11,782 ERROR 9348 nodejs.TcpConnectionTimeoutError: [TCPBase] socket connect timeout (3000ms) (address: 127.0.0.1:50438) (127.0.0.1)
+    at Socket.socket.setTimeout (D:\web\unhappy\node_modules\tcp-base\lib\base.js:399:19)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Socket.emit (events.js:207:7)
+    at Socket._onTimeout (net.js:398:8)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'TcpConnectionTimeoutError'
+host: '127.0.0.1'
+port: 50438
+pid: 9348
+hostname: v_lljunli-PC0
+
+2017-09-25 10:44:39,243 ERROR 9348 nodejs.TcpConnectionTimeoutError: [TCPBase] socket connect timeout (3000ms) (address: 127.0.0.1:50438) (127.0.0.1) (127.0.0.1) (127.0.0.1)
+    at Socket.socket.setTimeout (D:\web\unhappy\node_modules\tcp-base\lib\base.js:399:19)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Socket.emit (events.js:207:7)
+    at Socket._onTimeout (net.js:398:8)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'TcpConnectionTimeoutError'
+host: '127.0.0.1'
+port: 50438
+pid: 9348
+hostname: v_lljunli-PC0
+
+2017-09-25 10:47:36,172 ERROR 9348 nodejs.TcpConnectionTimeoutError: [TCPBase] socket connect timeout (3000ms) (address: 127.0.0.1:50438) (127.0.0.1)
+    at Socket.socket.setTimeout (D:\web\unhappy\node_modules\tcp-base\lib\base.js:399:19)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Socket.emit (events.js:207:7)
+    at Socket._onTimeout (net.js:398:8)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'TcpConnectionTimeoutError'
+host: '127.0.0.1'
+port: 50438
+pid: 9348
+hostname: v_lljunli-PC0
+
+2017-09-25 10:47:36,201 ERROR 9348 nodejs.TcpConnectionTimeoutError: [TCPBase] socket connect timeout (3000ms) (address: 127.0.0.1:50438) (127.0.0.1) (127.0.0.1) (127.0.0.1)
+    at Socket.socket.setTimeout (D:\web\unhappy\node_modules\tcp-base\lib\base.js:399:19)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Socket.emit (events.js:207:7)
+    at Socket._onTimeout (net.js:398:8)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'TcpConnectionTimeoutError'
+host: '127.0.0.1'
+port: 50438
+pid: 9348
+hostname: v_lljunli-PC0
+
+2017-09-25 10:58:15,941 ERROR 8268 nodejs.ServerNoResponseError: server 127.0.0.1:57200 no response in 37529ms, maybe the socket is end on the other side. (address: 127.0.0.1:57200)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 8268
+hostname: v_lljunli-PC0
+
+2017-09-25 11:01:54,440 ERROR 9900 nodejs.ClusterClientNoResponseError: client no response in 278504ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 9900
+hostname: v_lljunli-PC0
+
+2017-09-25 14:26:42,693 ERROR 5476 nodejs.ServerNoResponseError: server 127.0.0.1:61147 no response in 20014ms, maybe the socket is end on the other side. (address: 127.0.0.1:61147)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 5476
+hostname: v_lljunli-PC0
+
+2017-09-25 16:02:06,589 ERROR 5476 nodejs.Error: [ClusterClient] leader does not be active in 30000ms on port:61147
+    at Function.waitFor (D:\web\unhappy\node_modules\cluster-client\lib\server.js:244:15)
+    at waitFor.next (<anonymous>)
+    at onFulfilled (D:\web\unhappy\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 5476
+hostname: v_lljunli-PC0
+
+2017-09-25 16:07:01,459 ERROR 11916 nodejs.ServerNoResponseError: server 127.0.0.1:59405 no response in 20012ms, maybe the socket is end on the other side. (address: 127.0.0.1:59405)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 11916
+hostname: v_lljunli-PC0
+
+2017-09-25 16:12:28,965 ERROR 5348 nodejs.ServerNoResponseError: server 127.0.0.1:54035 no response in 39988ms, maybe the socket is end on the other side. (address: 127.0.0.1:54035)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 5348
+hostname: v_lljunli-PC0
+
+2017-09-25 16:39:52,292 ERROR 2692 nodejs.ClusterClientNoResponseError: client no response in 1683328ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 2692
+hostname: v_lljunli-PC0
+
+2017-09-25 16:42:33,374 ERROR 12272 nodejs.ServerNoResponseError: server 127.0.0.1:56053 no response in 32457ms, maybe the socket is end on the other side. (address: 127.0.0.1:56053)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 12272
+hostname: v_lljunli-PC0
+
+2017-09-25 16:46:01,874 ERROR 11232 nodejs.ClusterClientNoResponseError: client no response in 248505ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 11232
+hostname: v_lljunli-PC0
+
+2017-09-25 16:46:53,598 ERROR 10456 nodejs.ServerNoResponseError: server 127.0.0.1:56138 no response in 20013ms, maybe the socket is end on the other side. (address: 127.0.0.1:56138)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 10456
+hostname: v_lljunli-PC0
+
+2017-09-25 16:47:54,544 ERROR 7960 nodejs.ClusterClientNoResponseError: client no response in 80947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 7960
+hostname: v_lljunli-PC0
+
+2017-09-25 16:48:50,053 ERROR 11884 nodejs.ServerNoResponseError: server 127.0.0.1:56205 no response in 20018ms, maybe the socket is end on the other side. (address: 127.0.0.1:56205)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 11884
+hostname: v_lljunli-PC0
+
+2017-09-25 17:29:07,235 ERROR 9756 nodejs.ClusterClientNoResponseError: client no response in 2437178ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 9756
+hostname: v_lljunli-PC0
+
+2017-09-25 17:29:47,389 ERROR 11884 nodejs.ServerNoResponseError: server 127.0.0.1:56205 no response in 20030ms, maybe the socket is end on the other side. (address: 127.0.0.1:56205)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 11884
+hostname: v_lljunli-PC0
+
+2017-09-25 17:30:57,069 ERROR 9756 nodejs.ClusterClientNoResponseError: client no response in 89680ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 9756
+hostname: v_lljunli-PC0
+
+2017-09-25 17:31:37,139 ERROR 11884 nodejs.ServerNoResponseError: server 127.0.0.1:56205 no response in 20012ms, maybe the socket is end on the other side. (address: 127.0.0.1:56205)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 11884
+hostname: v_lljunli-PC0
+
+2017-09-25 17:33:57,530 ERROR 12880 nodejs.ServerNoResponseError: server 127.0.0.1:59960 no response in 20015ms, maybe the socket is end on the other side. (address: 127.0.0.1:59960)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 12880
+hostname: v_lljunli-PC0
+
+2017-09-25 17:42:16,706 ERROR 12992 nodejs.ServerNoResponseError: server 127.0.0.1:62760 no response in 20012ms, maybe the socket is end on the other side. (address: 127.0.0.1:62760)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 12992
+hostname: v_lljunli-PC0
+
+2017-09-25 17:43:06,187 ERROR 12312 nodejs.ClusterClientNoResponseError: client no response in 69481ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 12312
+hostname: v_lljunli-PC0
+
+2017-09-25 17:44:26,271 ERROR 12992 nodejs.ServerNoResponseError: server 127.0.0.1:62760 no response in 28454ms, maybe the socket is end on the other side. (address: 127.0.0.1:62760)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 12992
+hostname: v_lljunli-PC0
+
+2017-09-25 17:51:32,469 ERROR 12312 nodejs.ClusterClientNoResponseError: client no response in 466201ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 12312
+hostname: v_lljunli-PC0
+
+2017-09-25 17:52:23,506 ERROR 11064 nodejs.ServerNoResponseError: server 127.0.0.1:63012 no response in 20015ms, maybe the socket is end on the other side. (address: 127.0.0.1:63012)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 11064
+hostname: v_lljunli-PC0
+
+2017-09-25 17:55:53,354 ERROR 12124 nodejs.ClusterClientNoResponseError: client no response in 229847ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 12124
+hostname: v_lljunli-PC0
+
+2017-09-25 17:57:51,294 ERROR 4176 nodejs.ServerNoResponseError: server 127.0.0.1:64831 no response in 20021ms, maybe the socket is end on the other side. (address: 127.0.0.1:64831)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 4176
+hostname: v_lljunli-PC0
+
+2017-09-25 18:03:34,562 ERROR 11892 nodejs.ServerNoResponseError: server 127.0.0.1:64974 no response in 20020ms, maybe the socket is end on the other side. (address: 127.0.0.1:64974)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 11892
+hostname: v_lljunli-PC0
+
+2017-09-25 18:04:31,922 ERROR 2656 nodejs.ServerNoResponseError: server 127.0.0.1:64990 no response in 20022ms, maybe the socket is end on the other side. (address: 127.0.0.1:64990)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 2656
+hostname: v_lljunli-PC0
+
+2017-09-25 18:06:47,034 ERROR 12612 nodejs.ServerNoResponseError: server 127.0.0.1:65039 no response in 33163ms, maybe the socket is end on the other side. (address: 127.0.0.1:65039)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 12612
+hostname: v_lljunli-PC0
+
+2017-09-26 09:44:20,110 ERROR 12620 nodejs.ServerNoResponseError: server 127.0.0.1:50846 no response in 20018ms, maybe the socket is end on the other side. (address: 127.0.0.1:50846)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 12620
+hostname: v_lljunli-PC0
+
+2017-09-26 10:07:19,449 ERROR 13512 nodejs.ServerNoResponseError: server 127.0.0.1:62166 no response in 40000ms, maybe the socket is end on the other side. (address: 127.0.0.1:62166)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 13512
+hostname: v_lljunli-PC0
+
+2017-09-26 10:10:27,208 ERROR 15272 nodejs.ServerNoResponseError: server 127.0.0.1:62408 no response in 20001ms, maybe the socket is end on the other side. (address: 127.0.0.1:62408)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 15272
+hostname: v_lljunli-PC0
+
+2017-09-26 11:01:23,857 ERROR 12604 nodejs.ClusterClientNoResponseError: client no response in 3076650ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 12604
+hostname: v_lljunli-PC0
+
+2017-09-26 11:12:06,325 ERROR 14920 nodejs.ServerNoResponseError: server 127.0.0.1:55541 no response in 20014ms, maybe the socket is end on the other side. (address: 127.0.0.1:55541)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 14920
+hostname: v_lljunli-PC0
+
+2017-09-26 11:18:32,022 ERROR 10692 nodejs.ServerNoResponseError: server 127.0.0.1:55862 no response in 20022ms, maybe the socket is end on the other side. (address: 127.0.0.1:55862)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 10692
+hostname: v_lljunli-PC0
+
+2017-09-26 11:21:54,937 ERROR 14720 nodejs.TypeError: Cannot read property 'set' of undefined
+    at meta (D:\web\unhappy\node_modules\unhappy-app\app\middleware\meta.js:13:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 14720
+hostname: v_lljunli-PC0
+
+2017-09-26 11:21:54,943 ERROR 14720 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:135:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 14720
+hostname: v_lljunli-PC0
+
+2017-09-26 11:21:55,356 ERROR 14720 nodejs.TypeError: Cannot read property 'set' of undefined
+    at meta (D:\web\unhappy\node_modules\unhappy-app\app\middleware\meta.js:13:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 14720
+hostname: v_lljunli-PC0
+
+2017-09-26 11:21:55,404 ERROR 14720 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:135:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 14720
+hostname: v_lljunli-PC0
+
+2017-09-26 11:22:49,864 ERROR 13640 nodejs.TypeError: Cannot read property 'set' of undefined
+    at meta (D:\web\unhappy\node_modules\unhappy-app\app\middleware\meta.js:13:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 13640
+hostname: v_lljunli-PC0
+
+2017-09-26 11:22:49,875 ERROR 13640 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:135:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 13640
+hostname: v_lljunli-PC0
+
+2017-09-26 11:22:50,103 ERROR 13640 nodejs.TypeError: Cannot read property 'set' of undefined
+    at meta (D:\web\unhappy\node_modules\unhappy-app\app\middleware\meta.js:13:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 13640
+hostname: v_lljunli-PC0
+
+2017-09-26 11:22:50,120 ERROR 13640 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:135:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 13640
+hostname: v_lljunli-PC0
+
+2017-09-26 14:16:47,975 ERROR 12660 nodejs.ServerNoResponseError: server 127.0.0.1:58419 no response in 20020ms, maybe the socket is end on the other side. (address: 127.0.0.1:58419)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 12660
+hostname: v_lljunli-PC0
+
+2017-09-26 14:27:34,704 ERROR 12456 nodejs.ClusterClientNoResponseError: client no response in 666727ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 12456
+hostname: v_lljunli-PC0
+
+2017-09-26 14:28:14,780 ERROR 12660 nodejs.ServerNoResponseError: server 127.0.0.1:58419 no response in 20015ms, maybe the socket is end on the other side. (address: 127.0.0.1:58419)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 12660
+hostname: v_lljunli-PC0
+
+2017-09-26 14:34:48,868 ERROR 12456 nodejs.ClusterClientNoResponseError: client no response in 414089ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 12456
+hostname: v_lljunli-PC0
+
+2017-09-26 14:35:21,975 ERROR 15420 nodejs.TypeError: Cannot read property 'method' of undefined
+    at siteFile (D:\web\unhappy\node_modules\unhappy-app\app\middleware\site_file.js:8:13)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at meta (D:\web\unhappy\node_modules\unhappy-app\app\middleware\meta.js:9:12)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at D:\web\unhappy\node_modules\koa-compose\index.js:34:12
+    at Server.handleRequest (D:\web\unhappy\node_modules\koa\lib\application.js:138:14)
+    at emitTwo (events.js:125:13)
+    at Server.emit (events.js:213:7)
+    at parserOnIncoming (_http_server.js:602:12)
+
+pid: 15420
+hostname: v_lljunli-PC0
+
+2017-09-26 14:35:21,993 ERROR 15420 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:135:34)
+    at <anonymous>
+    at runMicrotasksCallback (internal/process/next_tick.js:121:5)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+
+pid: 15420
+hostname: v_lljunli-PC0
+
+2017-09-26 15:01:04,127 ERROR 12448 nodejs.TypeError: Cannot read property 'status' of undefined
+    at notfound (D:\web\unhappy\node_modules\unhappy-app\app\middleware\notfound.js:7:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12448
+hostname: v_lljunli-PC0
+
+2017-09-26 15:01:04,153 ERROR 12448 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:135:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12448
+hostname: v_lljunli-PC0
+
+2017-09-27 09:45:14,935 ERROR 14668 nodejs.ServerNoResponseError: server 127.0.0.1:53814 no response in 20022ms, maybe the socket is end on the other side. (address: 127.0.0.1:53814)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 14668
+hostname: v_lljunli-PC0
+
+2017-09-27 09:46:46,844 ERROR 15968 nodejs.ClusterClientNoResponseError: client no response in 111908ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 15968
+hostname: v_lljunli-PC0
+
+2017-09-27 09:47:26,918 ERROR 14668 nodejs.ServerNoResponseError: server 127.0.0.1:53814 no response in 20012ms, maybe the socket is end on the other side. (address: 127.0.0.1:53814)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 14668
+hostname: v_lljunli-PC0
+
+2017-09-27 09:48:18,092 ERROR 14668 nodejs.ServerNoResponseError: server 127.0.0.1:53814 no response in 20025ms, maybe the socket is end on the other side. (address: 127.0.0.1:53814)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 14668
+hostname: v_lljunli-PC0
+
+2017-09-27 09:49:31,885 ERROR 15968 nodejs.ClusterClientNoResponseError: client no response in 93794ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 15968
+hostname: v_lljunli-PC0
+
+2017-09-27 09:50:42,588 ERROR 15636 nodejs.ServerNoResponseError: server 127.0.0.1:50273 no response in 20021ms, maybe the socket is end on the other side. (address: 127.0.0.1:50273)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 15636
+hostname: v_lljunli-PC0
+
+2017-09-27 09:54:19,024 ERROR 15300 nodejs.ClusterClientNoResponseError: client no response in 236430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 15300
+hostname: v_lljunli-PC0
+
+2017-09-27 09:54:59,109 ERROR 15636 nodejs.ServerNoResponseError: server 127.0.0.1:50273 no response in 20013ms, maybe the socket is end on the other side. (address: 127.0.0.1:50273)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 15636
+hostname: v_lljunli-PC0
+
+2017-09-27 09:59:05,866 ERROR 15300 nodejs.ClusterClientNoResponseError: client no response in 266758ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 15300
+hostname: v_lljunli-PC0
+
+2017-09-27 10:00:54,283 ERROR 15624 nodejs.ServerNoResponseError: server 127.0.0.1:60687 no response in 20022ms, maybe the socket is end on the other side. (address: 127.0.0.1:60687)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 15624
+hostname: v_lljunli-PC0
+
+2017-09-27 10:02:12,278 ERROR 17168 nodejs.ServerNoResponseError: server 127.0.0.1:56266 no response in 20019ms, maybe the socket is end on the other side. (address: 127.0.0.1:56266)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 17168
+hostname: v_lljunli-PC0
+
+2017-09-27 10:27:02,143 ERROR 10680 nodejs.ClusterClientNoResponseError: client no response in 1509863ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 10680
+hostname: v_lljunli-PC0
+
+2017-09-27 10:30:26,662 ERROR 17056 nodejs.ServerNoResponseError: server 127.0.0.1:52207 no response in 40001ms, maybe the socket is end on the other side. (address: 127.0.0.1:52207)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 17056
+hostname: v_lljunli-PC0
+
+2017-09-27 10:40:10,015 ERROR 14520 nodejs.ServerNoResponseError: server 127.0.0.1:61830 no response in 39997ms, maybe the socket is end on the other side. (address: 127.0.0.1:61830)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 14520
+hostname: v_lljunli-PC0
+
+2017-09-27 10:53:09,454 ERROR 17576 nodejs.ClusterClientNoResponseError: client no response in 819441ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 17576
+hostname: v_lljunli-PC0
+
+2017-09-27 11:14:05,924 ERROR 17216 nodejs.TypeError: this.app.ContextCookies is not a constructor
+    at Object.get cookies [as cookies] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:17:23)
+    at Object.get [egg-security#CSRF_SECRET] (D:\web\unhappy\node_modules\unhappy-security\app\extend\context.js:77:32)
+    at Object.ensureCsrfSecret (D:\web\unhappy\node_modules\unhappy-security\app\extend\context.js:88:14)
+    at csrf (D:\web\unhappy\node_modules\unhappy-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at D:\web\unhappy\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at i18n (D:\web\unhappy\node_modules\unhappy-i18n\app\middleware\i18n.js:14:11)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 17216
+hostname: v_lljunli-PC0
+
+2017-09-27 11:14:05,986 ERROR 17216 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17216
+hostname: v_lljunli-PC0
+
+2017-09-27 11:14:06,099 ERROR 17216 nodejs.ServerNoResponseError: server 127.0.0.1:55071 no response in 20012ms, maybe the socket is end on the other side. (address: 127.0.0.1:55071)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 17216
+hostname: v_lljunli-PC0
+
+2017-09-27 11:14:22,749 ERROR 18344 nodejs.TypeError: this.app.ContextCookies is not a constructor
+    at Object.get cookies [as cookies] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:17:23)
+    at Object.get [egg-security#CSRF_SECRET] (D:\web\unhappy\node_modules\unhappy-security\app\extend\context.js:77:32)
+    at Object.ensureCsrfSecret (D:\web\unhappy\node_modules\unhappy-security\app\extend\context.js:88:14)
+    at csrf (D:\web\unhappy\node_modules\unhappy-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at D:\web\unhappy\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at i18n (D:\web\unhappy\node_modules\unhappy-i18n\app\middleware\i18n.js:14:11)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 18344
+hostname: v_lljunli-PC0
+
+2017-09-27 11:14:22,773 ERROR 18344 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 18344
+hostname: v_lljunli-PC0
+
+2017-09-27 11:17:16,596 ERROR 18344 nodejs.TypeError: this.app.ContextCookies is not a constructor
+    at Object.get cookies [as cookies] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:17:23)
+    at Object.get [egg-security#CSRF_SECRET] (D:\web\unhappy\node_modules\unhappy-security\app\extend\context.js:77:32)
+    at Object.ensureCsrfSecret (D:\web\unhappy\node_modules\unhappy-security\app\extend\context.js:88:14)
+    at csrf (D:\web\unhappy\node_modules\unhappy-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at D:\web\unhappy\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at i18n (D:\web\unhappy\node_modules\unhappy-i18n\app\middleware\i18n.js:14:11)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 18344
+hostname: v_lljunli-PC0
+
+2017-09-27 11:17:16,623 ERROR 18344 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 18344
+hostname: v_lljunli-PC0
+
+2017-09-27 11:20:24,588 ERROR 17560 nodejs.TypeError: this.app.ContextCookies is not a constructor
+    at Object.get cookies [as cookies] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:17:23)
+    at Object.get [egg-security#CSRF_SECRET] (D:\web\unhappy\node_modules\unhappy-security\app\extend\context.js:77:32)
+    at Object.ensureCsrfSecret (D:\web\unhappy\node_modules\unhappy-security\app\extend\context.js:88:14)
+    at csrf (D:\web\unhappy\node_modules\unhappy-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at D:\web\unhappy\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at i18n (D:\web\unhappy\node_modules\unhappy-i18n\app\middleware\i18n.js:14:11)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 17560
+hostname: v_lljunli-PC0
+
+2017-09-27 11:20:24,616 ERROR 17560 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:95:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:111:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17560
+hostname: v_lljunli-PC0
+
+2017-09-27 16:25:13,159 ERROR 11672 nodejs.TypeError: ctx.req.keys is not a function
+    at dispatch (D:\web\unhappy\node_modules\koa-router\lib\router.js:324:23)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at dta (D:\web\unhappy\node_modules\unhappy-security\lib\middlewares\dta.js:12:11)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at xframe (D:\web\unhappy\node_modules\unhappy-security\lib\middlewares\xframe.js:7:11)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 11672
+hostname: v_lljunli-PC0
+
+2017-09-27 16:25:13,180 ERROR 11672 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:64:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:70:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 11672
+hostname: v_lljunli-PC0
+
+2017-09-27 16:42:52,797 ERROR 16200 nodejs.ReferenceError: debug is not defined
+    at Object.headerSent (D:\web\unhappy\node_modules\delegates\index.js:72:5)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:48:28)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at runMicrotasksCallback (internal/process/next_tick.js:121:5)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 16200
+hostname: v_lljunli-PC0
+
+2017-09-28 14:33:09,651 ERROR 18204 nodejs.TypeError: Cannot read property 'app' of undefined
+    at HomeController.BaseContextClass (D:\web\unhappy\node_modules\unhappy-app\lib\core\base_context_class.js:29:19)
+    at HomeController (D:\web\unhappy\app\controller\home.js:4:3)
+    at classControllerMiddleware (D:\web\unhappy\node_modules\unhappy-core\lib\loader\mixin\controller.js:66:26)
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\web\unhappy\node_modules\koa-router\lib\router.js:233:16
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\web\unhappy\node_modules\koa-router\lib\router.js:238:31)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 18204
+hostname: v_lljunli-PC0
+
+2017-09-28 14:33:09,683 ERROR 18204 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:64:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:70:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 18204
+hostname: v_lljunli-PC0
+
+2017-09-28 14:34:03,610 ERROR 18204 nodejs.ServerNoResponseError: server 127.0.0.1:57134 no response in 39999ms, maybe the socket is end on the other side. (address: 127.0.0.1:57134)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 18204
+hostname: v_lljunli-PC0
+
+2017-09-28 14:45:16,689 ERROR 18072 nodejs.ClusterClientNoResponseError: client no response in 733084ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 18072
+hostname: v_lljunli-PC0
+
+2017-09-28 14:45:37,159 ERROR 18276 nodejs.ReferenceError: debug is not defined
+    at classControllerMiddleware (D:\web\unhappy\node_modules\unhappy-core\lib\loader\mixin\controller.js:66:7)
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\web\unhappy\node_modules\koa-router\lib\router.js:233:16
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\web\unhappy\node_modules\koa-router\lib\router.js:238:31)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 18276
+hostname: v_lljunli-PC0
+
+2017-09-28 14:45:37,182 ERROR 18276 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:64:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:70:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 18276
+hostname: v_lljunli-PC0
+
+2017-09-28 14:46:54,319 ERROR 18276 nodejs.ServerNoResponseError: server 127.0.0.1:53879 no response in 39991ms, maybe the socket is end on the other side. (address: 127.0.0.1:53879)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 18276
+hostname: v_lljunli-PC0
+
+2017-09-28 14:55:02,266 ERROR 16760 nodejs.ClusterClientNoResponseError: client no response in 527947ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 16760
+hostname: v_lljunli-PC0
+
+2017-09-28 14:55:18,212 ERROR 19016 nodejs.TypeError: Cannot read property 'app' of undefined
+    at HomeController.BaseContextClass (D:\web\unhappy\node_modules\unhappy-app\lib\core\base_context_class.js:29:19)
+    at HomeController (D:\web\unhappy\app\controller\home.js:4:3)
+    at classControllerMiddleware (D:\web\unhappy\node_modules\unhappy-core\lib\loader\mixin\controller.js:68:26)
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\web\unhappy\node_modules\koa-router\lib\router.js:233:16
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\web\unhappy\node_modules\koa-router\lib\router.js:238:31)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 19016
+hostname: v_lljunli-PC0
+
+2017-09-28 14:55:18,239 ERROR 19016 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:64:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:70:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 19016
+hostname: v_lljunli-PC0
+
+2017-09-28 15:12:34,339 ERROR 19016 nodejs.ServerNoResponseError: server 127.0.0.1:52661 no response in 40002ms, maybe the socket is end on the other side. (address: 127.0.0.1:52661)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 19016
+hostname: v_lljunli-PC0
+
+2017-09-28 15:16:20,060 ERROR 12924 nodejs.ClusterClientNoResponseError: client no response in 265724ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 12924
+hostname: v_lljunli-PC0
+
+2017-09-28 15:17:00,124 ERROR 19016 nodejs.ServerNoResponseError: server 127.0.0.1:52661 no response in 20010ms, maybe the socket is end on the other side. (address: 127.0.0.1:52661)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 19016
+hostname: v_lljunli-PC0
+
+2017-09-28 15:19:09,754 ERROR 20080 nodejs.ServerNoResponseError: server 127.0.0.1:64549 no response in 20020ms, maybe the socket is end on the other side. (address: 127.0.0.1:64549)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 20080
+hostname: v_lljunli-PC0
+
+2017-09-28 15:20:41,181 ERROR 18076 nodejs.ServerNoResponseError: server 127.0.0.1:61680 no response in 20016ms, maybe the socket is end on the other side. (address: 127.0.0.1:61680)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 18076
+hostname: v_lljunli-PC0
+
+2017-09-28 15:32:28,950 ERROR 20800 nodejs.ServerNoResponseError: server 127.0.0.1:56882 no response in 20011ms, maybe the socket is end on the other side. (address: 127.0.0.1:56882)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 20800
+hostname: v_lljunli-PC0
+
+2017-09-28 15:32:38,498 ERROR 20800 nodejs.TypeError: Cannot read property 'app' of undefined
+    at HomeController.BaseContextClass (D:\web\unhappy\node_modules\unhappy-app\lib\core\base_context_class.js:29:19)
+    at HomeController (D:\web\unhappy\app\controller\home.js:4:3)
+    at classControllerMiddleware (D:\web\unhappy\node_modules\unhappy-core\lib\loader\mixin\controller.js:68:26)
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\web\unhappy\node_modules\koa-router\lib\router.js:233:16
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\web\unhappy\node_modules\koa-router\lib\router.js:238:31)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 20800
+hostname: v_lljunli-PC0
+
+2017-09-28 15:32:38,531 ERROR 20800 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:64:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:70:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 20800
+hostname: v_lljunli-PC0
+
+2017-09-28 15:44:27,975 ERROR 19504 nodejs.ServerNoResponseError: server 127.0.0.1:56998 no response in 20013ms, maybe the socket is end on the other side. (address: 127.0.0.1:56998)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 19504
+hostname: v_lljunli-PC0
+
+2017-09-28 15:48:51,391 ERROR 18328 nodejs.ClusterClientNoResponseError: client no response in 283414ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 18328
+hostname: v_lljunli-PC0
+
+2017-09-28 15:48:59,830 ERROR 19504 nodejs.TypeError: Cannot read property 'app' of undefined
+    at HomeController.BaseContextClass (D:\web\unhappy\node_modules\unhappy-app\lib\core\base_context_class.js:29:19)
+    at HomeController (D:\web\unhappy\app\controller\home.js:4:3)
+    at classControllerMiddleware (D:\web\unhappy\node_modules\unhappy-core\lib\loader\mixin\controller.js:68:26)
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\web\unhappy\node_modules\koa-router\lib\router.js:233:16
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\web\unhappy\node_modules\koa-router\lib\router.js:238:31)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 19504
+hostname: v_lljunli-PC0
+
+2017-09-28 15:48:59,854 ERROR 19504 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:64:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:70:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 19504
+hostname: v_lljunli-PC0
+
+2017-09-28 16:15:18,813 ERROR 18752 nodejs.ReferenceError: args is not defined
+    at classControllerMiddleware (D:\web\unhappy\node_modules\unhappy-core\lib\loader\mixin\controller.js:70:14)
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\web\unhappy\node_modules\koa-router\lib\router.js:233:16
+    at dispatch (D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\web\unhappy\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\web\unhappy\node_modules\koa-router\lib\router.js:238:31)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+    at next (D:\web\unhappy\node_modules\koa-compose\index.js:44:18)
+    at dispatch (D:\web\unhappy\node_modules\koa-compose\index.js:43:32)
+
+pid: 18752
+hostname: v_lljunli-PC0
+
+2017-09-28 16:15:18,834 ERROR 18752 nodejs.TypeError: this.app.ContextLogger is not a constructor
+    at Object.getLogger (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:64:19)
+    at Object.get logger [as logger] (D:\web\unhappy\node_modules\unhappy-app\app\extend\context.js:70:17)
+    at Application.app.on (D:\web\unhappy\node_modules\unhappy-onerror\app.js:24:12)
+    at emitTwo (events.js:125:13)
+    at Application.emit (events.js:213:7)
+    at Object.app.context.onerror (D:\web\unhappy\node_modules\koa-onerror\index.js:52:14)
+    at onerror (D:\web\unhappy\node_modules\koa\lib\application.js:136:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 18752
+hostname: v_lljunli-PC0
+
+2017-09-28 17:07:12,423 ERROR 15344 nodejs.ServerNoResponseError: server 127.0.0.1:62759 no response in 20011ms, maybe the socket is end on the other side. (address: 127.0.0.1:62759)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 15344
+hostname: v_lljunli-PC0
+
+2017-09-28 17:16:44,879 ERROR 21080 nodejs.ServerNoResponseError: server 127.0.0.1:59573 no response in 20013ms, maybe the socket is end on the other side. (address: 127.0.0.1:59573)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 21080
+hostname: v_lljunli-PC0
+
+2017-09-28 17:22:52,490 ERROR 21032 nodejs.ServerNoResponseError: server 127.0.0.1:62936 no response in 20023ms, maybe the socket is end on the other side. (address: 127.0.0.1:62936)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 21032
+hostname: v_lljunli-PC0
+
+2017-09-28 17:27:54,335 ERROR 22448 nodejs.ServerNoResponseError: server 127.0.0.1:55806 no response in 20019ms, maybe the socket is end on the other side. (address: 127.0.0.1:55806)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 22448
+hostname: v_lljunli-PC0
+
+2017-09-28 17:31:18,084 ERROR 21700 nodejs.ServerNoResponseError: server 127.0.0.1:54975 no response in 20019ms, maybe the socket is end on the other side. (address: 127.0.0.1:54975)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\tcp-base\lib\base.js:422:21)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ServerNoResponseError'
+pid: 21700
+hostname: v_lljunli-PC0
+
+2017-09-28 18:03:24,258 ERROR 21552 nodejs.ClusterClientNoResponseError: client no response in 1946174ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\web\unhappy\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 21552
+hostname: v_lljunli-PC0
+

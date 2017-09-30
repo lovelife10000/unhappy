@@ -1,0 +1,45 @@
+2017-09-29 00:00:01,820 INFO 22364 [egg-logrotator] agent logger reload: got log-reload message
+2017-09-29 09:15:20,317 INFO 19104 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-29 09:15:20,763 INFO 19104 [egg-watcher:agent] watcher start success
+2017-09-29 10:26:37,779 INFO 22756 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-29 10:26:38,254 INFO 22756 [egg-watcher:agent] watcher start success
+2017-09-29 10:27:40,042 INFO 24816 [egg:logger] init all loggers with options: {"dir":"D:\\web\\unhappy\\logs\\unhappy","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"unhappy-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-09-29 10:27:40,489 INFO 24816 [egg-watcher:agent] watcher start success
+2017-09-30 15:10:59,534 INFO 24816 [egg-schedule] send message: sendRandom egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\rotate_by_file.js
+2017-09-30 15:10:59,535 WARN 24816 agent can't call sendRandom before server started
+    at Messenger.messenger.(anonymous function) [as sendRandom] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:65:23)
+    at sendMessage (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:57:26)
+    at one (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:36:11)
+    at Timeout.safeTimeout [as _onTimeout] (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:102:5)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+2017-09-30 15:10:59,563 WARN 24816 agent can't call sendTo before server started
+    at Messenger.messenger.(anonymous function) [as sendTo] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:65:23)
+    at Messenger.sendRandom (D:\web\unhappy\node_modules\unhappy-app\lib\core\messenger.js:46:10)
+    at Messenger.messenger.(anonymous function) [as sendRandom] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:68:22)
+    at sendMessage (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:57:26)
+    at one (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:36:11)
+    at Timeout.safeTimeout [as _onTimeout] (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:102:5)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+2017-09-30 15:10:59,623 INFO 24816 [egg-schedule] send message: sendRandom egg-schedule:D:\web\unhappy\node_modules\unhappy-logrotator\app\schedule\clean_log.js
+2017-09-30 15:10:59,623 WARN 24816 agent can't call sendRandom before server started
+    at Messenger.messenger.(anonymous function) [as sendRandom] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:65:23)
+    at sendMessage (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:57:26)
+    at one (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:36:11)
+    at Timeout.safeTimeout [as _onTimeout] (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:102:5)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+2017-09-30 15:10:59,637 WARN 24816 agent can't call sendTo before server started
+    at Messenger.messenger.(anonymous function) [as sendTo] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:65:23)
+    at Messenger.sendRandom (D:\web\unhappy\node_modules\unhappy-app\lib\core\messenger.js:46:10)
+    at Messenger.messenger.(anonymous function) [as sendRandom] (D:\web\unhappy\node_modules\unhappy-app\lib\agent.js:68:22)
+    at sendMessage (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:57:26)
+    at one (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:36:11)
+    at Timeout.safeTimeout [as _onTimeout] (D:\web\unhappy\node_modules\unhappy-schedule\agent.js:102:5)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
